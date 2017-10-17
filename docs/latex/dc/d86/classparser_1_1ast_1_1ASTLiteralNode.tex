@@ -1,0 +1,99 @@
+\hypertarget{classparser_1_1ast_1_1ASTLiteralNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Literal\+Node$<$ T $>$ Class Template Reference}
+\label{classparser_1_1ast_1_1ASTLiteralNode}\index{parser\+::ast\+::\+A\+S\+T\+Literal\+Node$<$ T $>$@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node$<$ T $>$}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+Literal\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Literal\+Node$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{dc/d86/classparser_1_1ast_1_1ASTLiteralNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTLiteralNode_a44d0a5e92c58efc35fb9778b56feb725}{A\+S\+T\+Literal\+Node} (T literal)
+\item 
+T \hyperlink{classparser_1_1ast_1_1ASTLiteralNode_a43466bd413257d43650659383351e612}{get\+Literal} () const
+\item 
+\hyperlink{ASTFactorNode_8h_afbe2fcc03ef15b74a0c1ed1cda7ab0e8}{Factor\+Type} \hyperlink{classparser_1_1ast_1_1ASTLiteralNode_a08efdbff5f7b0a0b7623ad964a6e4a9f}{get\+Factor\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTLiteralNode_a6d7a907614e19132b9c669f7aa32b735}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTLiteralNode_a3d8332043910f9f6d068c5c22814a13f}\label{classparser_1_1ast_1_1ASTLiteralNode_a3d8332043910f9f6d068c5c22814a13f}} 
+T {\bfseries literal}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$\newline
+class parser\+::ast\+::\+A\+S\+T\+Literal\+Node$<$ T $>$}
+
+Class representing a literal node in the A\+ST 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTLiteralNode_a44d0a5e92c58efc35fb9778b56feb725}\label{classparser_1_1ast_1_1ASTLiteralNode_a44d0a5e92c58efc35fb9778b56feb725}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Literal\+Node@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}!A\+S\+T\+Literal\+Node@{A\+S\+T\+Literal\+Node}}
+\index{A\+S\+T\+Literal\+Node@{A\+S\+T\+Literal\+Node}!parser\+::ast\+::\+A\+S\+T\+Literal\+Node@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Literal\+Node()}{ASTLiteralNode()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}$<$ T $>$\+::\hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{A\+S\+T\+Literal\+Node} (\begin{DoxyParamCaption}\item[{T}]{literal }\end{DoxyParamCaption})}
+
+Constructor for this literal 
+\begin{DoxyParams}{Parameters}
+{\em literal} & The literal to store \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTLiteralNode_a6d7a907614e19132b9c669f7aa32b735}\label{classparser_1_1ast_1_1ASTLiteralNode_a6d7a907614e19132b9c669f7aa32b735}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Literal\+Node@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Literal\+Node@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}$<$ T $>$\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTLiteralNode_a08efdbff5f7b0a0b7623ad964a6e4a9f}\label{classparser_1_1ast_1_1ASTLiteralNode_a08efdbff5f7b0a0b7623ad964a6e4a9f}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Literal\+Node@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}!get\+Factor\+Type@{get\+Factor\+Type}}
+\index{get\+Factor\+Type@{get\+Factor\+Type}!parser\+::ast\+::\+A\+S\+T\+Literal\+Node@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}}
+\subsubsection{\texorpdfstring{get\+Factor\+Type()}{getFactorType()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\hyperlink{ASTFactorNode_8h_afbe2fcc03ef15b74a0c1ed1cda7ab0e8}{parser\+::ast\+::\+Factor\+Type} \hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}$<$ T $>$\+::get\+Factor\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The type of factor this is. Use instead of checking the class type. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTFactorNode_a13eea7f949c0055dea0a9d7b715f16a8}{parser\+::ast\+::\+A\+S\+T\+Factor\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTLiteralNode_a43466bd413257d43650659383351e612}\label{classparser_1_1ast_1_1ASTLiteralNode_a43466bd413257d43650659383351e612}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Literal\+Node@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}!get\+Literal@{get\+Literal}}
+\index{get\+Literal@{get\+Literal}!parser\+::ast\+::\+A\+S\+T\+Literal\+Node@{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}}
+\subsubsection{\texorpdfstring{get\+Literal()}{getLiteral()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}$<$ T $>$\+::get\+Literal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+the literal 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/expression/factor/\hyperlink{ASTLiteralNode_8h}{A\+S\+T\+Literal\+Node.\+h}\item 
+parser/ast/expression/factor/\hyperlink{ASTLiteralNode_8cpp}{A\+S\+T\+Literal\+Node.\+cpp}\end{DoxyCompactItemize}

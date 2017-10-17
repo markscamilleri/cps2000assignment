@@ -1,0 +1,504 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/Compiler.cpp
+iostream
+-
+fstream
+-
+Compiler.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/Compiler.h
+exceptions/FileIOException.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/FileIOException.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/Compiler.h
+string
+-
+vector
+-
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.cpp
+Exception.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h
+exception
+-
+string
+-
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/FileIOException.cpp
+FileIOException.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/FileIOException.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/FileIOException.h
+Exception.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/IllegalArgumentException.cpp
+IllegalArgumentException.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/IllegalArgumentException.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/IllegalArgumentException.h
+Exception.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/SyntaxError.cpp
+SyntaxError.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/SyntaxError.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/SyntaxError.h
+Exception.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/TypeError.cpp
+TypeError.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/TypeError.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/TypeError.h
+Exception.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/Lexer.cpp
+fstream
+-
+iostream
+-
+Lexer.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/Lexer.h
+../exceptions/SyntaxError.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/SyntaxError.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/Lexer.h
+array
+-
+vector
+-
+functional
+-
+unordered_set
+-
+unordered_map
+-
+TokenType.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/TokenType.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/TokenType.cpp
+TokenType.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/TokenType.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/TokenType.h
+string
+-
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/main.cpp
+vector
+-
+iostream
+-
+Compiler.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/Compiler.h
+visitor/XMLVisitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/XMLVisitor.h
+parser/Parser.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/Parser.h
+exceptions/Exception.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h
+visitor/TypeCheckVisitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/TypeCheckVisitor.h
+exceptions/TypeError.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/TypeError.h
+visitor/InterpreterVisitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/InterpreterVisitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/Parser.cpp
+cstring
+-
+iostream
+-
+Parser.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/Parser.h
+../exceptions/Exception.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h
+../exceptions/SyntaxError.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/SyntaxError.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/Parser.h
+memory
+-
+ast/ASTNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+ast/ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+ast/expression/factor/ASTFunctionCallNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTFunctionCallNode.h
+ast/expression/factor/ASTLiteralNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTLiteralNode.h
+ast/expression/factor/ASTSubExpression.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTSubExpression.h
+ast/expression/factor/ASTUnaryNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTUnaryNode.h
+ast/statement/ASTAssignmentNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTAssignmentNode.h
+ast/statement/ASTBlockStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.h
+ast/statement/ASTFunctionDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.h
+ast/statement/ASTIfStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTIfStatementNode.h
+ast/statement/ASTPrintStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTPrintStatementNode.h
+ast/statement/ASTReturnStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTReturnStatementNode.h
+ast/statement/ASTWhileStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTWhileStatementNode.h
+../lexer/TokenType.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/TokenType.h
+../lexer/Lexer.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/Lexer.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.cpp
+ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+memory
+-
+ASTNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+expression/ASTSimpleExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTSimpleExprNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+string
+-
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+vector
+-
+ASTNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTFactorNode.h
+../ASTNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTSimpleExprNode.cpp
+ASTSimpleExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTSimpleExprNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTSimpleExprNode.h
+ASTTermNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTTermNode.h
+../ASTNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTTermNode.cpp
+ASTTermNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTTermNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTTermNode.h
+memory
+-
+ASTFactorNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTFactorNode.h
+../ASTNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTFunctionCallNode.cpp
+iostream
+-
+ASTFunctionCallNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTFunctionCallNode.h
+../../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTFunctionCallNode.h
+vector
+-
+../ASTFactorNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTFactorNode.h
+ASTIdentifierNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.h
+../../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.cpp
+iostream
+-
+ASTIdentifierNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.h
+../../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.h
+string
+-
+memory
+-
+../ASTFactorNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTFactorNode.h
+../../ASTNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTLiteralNode.cpp
+ASTLiteralNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTLiteralNode.h
+../../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTLiteralNode.h
+string
+-
+../ASTFactorNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTFactorNode.h
+../../ASTNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTSubExpression.cpp
+ASTSubExpression.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTSubExpression.h
+../../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTSubExpression.h
+../ASTFactorNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTFactorNode.h
+../../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTUnaryNode.cpp
+ASTUnaryNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTUnaryNode.h
+../../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTUnaryNode.h
+../ASTFactorNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTFactorNode.h
+../../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTAssignmentNode.cpp
+ASTAssignmentNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTAssignmentNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTAssignmentNode.h
+string
+-
+../ASTStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+../expression/factor/ASTIdentifierNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.cpp
+ASTBlockStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.h
+memory
+-
+../ASTStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.cpp
+ASTFunctionDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.h
+string
+-
+memory
+-
+../ASTStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+ASTVariableDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTVariableDeclStatementNode.h
+ASTBlockStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.h
+../expression/factor/ASTIdentifierNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTIfStatementNode.cpp
+ASTIfStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTIfStatementNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTIfStatementNode.h
+vector
+-
+../ASTStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+ASTBlockStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTPrintStatementNode.cpp
+ASTPrintStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTPrintStatementNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTPrintStatementNode.h
+../ASTStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTReturnStatementNode.cpp
+ASTReturnStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTReturnStatementNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTReturnStatementNode.h
+../ASTStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTVariableDeclStatementNode.cpp
+ASTVariableDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTVariableDeclStatementNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTVariableDeclStatementNode.h
+../ASTStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+../expression/factor/ASTIdentifierNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.h
+string
+-
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTWhileStatementNode.cpp
+ASTWhileStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTWhileStatementNode.h
+../../../visitor/Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTWhileStatementNode.h
+../ASTStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h
+../ASTExprNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h
+ASTBlockStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/InterpreterVisitor.cpp
+iostream
+-
+InterpreterVisitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/InterpreterVisitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/InterpreterVisitor.h
+Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+helpers/ScopedSymbolTable.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/ScopedSymbolTable.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/TypeCheckVisitor.cpp
+TypeCheckVisitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/TypeCheckVisitor.h
+../exceptions/TypeError.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/TypeError.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/TypeCheckVisitor.h
+map
+-
+Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+helpers/ScopedSymbolTable.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/ScopedSymbolTable.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.cpp
+Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+string
+-
+memory
+-
+../parser/ast/expression/factor/ASTLiteralNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTLiteralNode.h
+../parser/ast/expression/factor/ASTFunctionCallNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTFunctionCallNode.h
+../parser/ast/expression/factor/ASTSubExpression.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTSubExpression.h
+../parser/ast/expression/factor/ASTUnaryNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTUnaryNode.h
+../parser/ast/statement/ASTAssignmentNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTAssignmentNode.h
+../parser/ast/statement/ASTVariableDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTVariableDeclStatementNode.h
+../parser/ast/statement/ASTBlockStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.h
+../parser/ast/statement/ASTFunctionDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.h
+../parser/ast/statement/ASTIfStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTIfStatementNode.h
+../parser/ast/statement/ASTWhileStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTWhileStatementNode.h
+../parser/ast/statement/ASTPrintStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTPrintStatementNode.h
+../parser/ast/statement/ASTReturnStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTReturnStatementNode.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/XMLVisitor.cpp
+XMLVisitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/XMLVisitor.h
+iostream
+-
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/XMLVisitor.h
+Visitor.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/ScopedSymbolTable.cpp
+ScopedSymbolTable.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/ScopedSymbolTable.h
+../../exceptions/SyntaxError.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/SyntaxError.h
+../../exceptions/TypeError.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/TypeError.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/ScopedSymbolTable.h
+map
+-
+ostream
+-
+../../parser/ast/statement/ASTVariableDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTVariableDeclStatementNode.h
+../../parser/ast/statement/ASTFunctionDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.h
+Symbol.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/Symbol.h
+
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/Symbol.h
+../../parser/ast/statement/ASTFunctionDeclStatementNode.h
+/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.h
+

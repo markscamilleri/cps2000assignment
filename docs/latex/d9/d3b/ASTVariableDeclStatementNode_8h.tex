@@ -1,0 +1,60 @@
+\hypertarget{ASTVariableDeclStatementNode_8h}{}\section{parser/ast/statement/\+A\+S\+T\+Variable\+Decl\+Statement\+Node.h File Reference}
+\label{ASTVariableDeclStatementNode_8h}\index{parser/ast/statement/\+A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{parser/ast/statement/\+A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}}
+{\ttfamily \#include \char`\"{}../\+A\+S\+T\+Statement\+Node.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+A\+S\+T\+Expr\+Node.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../expression/factor/\+A\+S\+T\+Identifier\+Node.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string$>$}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode}{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{parser\+::ast\+::\+Variable\+Type} \{ \hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a29665f368006c629d15d2ae425831b7c}{parser\+::ast\+::\+I\+N\+T\+E\+G\+ER}, 
+\hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9aec4bbad7587e7580d8d1b5576dbb2824}{parser\+::ast\+::\+R\+E\+AL}, 
+\hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a4ce239db40284e5f2c6ac7a5d51a90fd}{parser\+::ast\+::\+B\+O\+O\+L\+E\+AN}, 
+\hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a23e373fc813cf497edc74d4a8ea78f2a}{parser\+::ast\+::\+S\+T\+R\+I\+NG}
+ \}\begin{DoxyCompactList}\small\item\em An enumerated type to represent the variable type. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Mark Said Camilleri \href{mailto:mark.said-camilleri.15@um.edu.mt}{\tt mark.\+said-\/camilleri.\+15@um.\+edu.\+mt} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+20170430 
+\end{DoxyVersion}
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{ASTVariableDeclStatementNode_8h_file_a1e8e1bde0729627e3a22ffa858d5f3b9}\label{ASTVariableDeclStatementNode_8h_file_a1e8e1bde0729627e3a22ffa858d5f3b9}} 
+\index{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}!Variable\+Type@{Variable\+Type}}
+\index{Variable\+Type@{Variable\+Type}!A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}}
+\subsubsection{\texorpdfstring{Variable\+Type}{VariableType}}
+{\footnotesize\ttfamily enum \hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{parser\+::ast\+::\+Variable\+Type}}
+
+
+
+An enumerated type to represent the variable type. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+N\+T\+E\+G\+ER@{I\+N\+T\+E\+G\+ER}!A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}}\index{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}!I\+N\+T\+E\+G\+ER@{I\+N\+T\+E\+G\+ER}}}\mbox{\Hypertarget{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a29665f368006c629d15d2ae425831b7c}\label{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a29665f368006c629d15d2ae425831b7c}} 
+I\+N\+T\+E\+G\+ER&An Integer ({\ttfamily int}) type. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+AL@{R\+E\+AL}!A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}}\index{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}!R\+E\+AL@{R\+E\+AL}}}\mbox{\Hypertarget{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9aec4bbad7587e7580d8d1b5576dbb2824}\label{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9aec4bbad7587e7580d8d1b5576dbb2824}} 
+R\+E\+AL&A Real ({\ttfamily real}) type. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{B\+O\+O\+L\+E\+AN@{B\+O\+O\+L\+E\+AN}!A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}}\index{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}!B\+O\+O\+L\+E\+AN@{B\+O\+O\+L\+E\+AN}}}\mbox{\Hypertarget{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a4ce239db40284e5f2c6ac7a5d51a90fd}\label{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a4ce239db40284e5f2c6ac7a5d51a90fd}} 
+B\+O\+O\+L\+E\+AN&A Bool ({\ttfamily bool}) type. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{S\+T\+R\+I\+NG@{S\+T\+R\+I\+NG}!A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}}\index{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h@{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}!S\+T\+R\+I\+NG@{S\+T\+R\+I\+NG}}}\mbox{\Hypertarget{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a23e373fc813cf497edc74d4a8ea78f2a}\label{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9a23e373fc813cf497edc74d4a8ea78f2a}} 
+S\+T\+R\+I\+NG&A String ({\ttfamily string}) type. \\
+\hline
+
+\end{DoxyEnumFields}

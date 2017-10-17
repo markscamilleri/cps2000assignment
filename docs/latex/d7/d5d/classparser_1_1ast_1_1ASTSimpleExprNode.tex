@@ -1,0 +1,143 @@
+\hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Simple\+Expr\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTSimpleExprNode}\index{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+Simple\+Expr\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Simple\+Expr\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d7/d5d/classparser_1_1ast_1_1ASTSimpleExprNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a882595847c545ef257df28c35ded464d}{A\+S\+T\+Simple\+Expr\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a3b8bc0ddeea8a027690259b2403c9f57}{left})
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a2aa80137757c84581176e8e7e953811e}{A\+S\+T\+Simple\+Expr\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a3b8bc0ddeea8a027690259b2403c9f57}{left}, Additive\+Op \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a7b0f1134025df83440c78636f2c1dbd3}{add\+Op}, std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a3ca192d1465a7dfa33e7a1ece3084b54}{right})
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a351105e2c9f21b40774b6e5949fdefb8}{get\+Left} ()
+\item 
+Additive\+Op \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a6081b08ef618cb72ae449d1e32913ae5}{get\+Add\+Op} ()
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a08c175910e5c8ed18462c9919ff08343}{get\+Right} ()
+\item 
+std\+::string \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_abf0a43427c061c963de936845ad3246d}{get\+Additive\+Operator\+String} ()
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a493a0e358cc89eb16f7a7ae9982d6527}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a3b8bc0ddeea8a027690259b2403c9f57}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a3b8bc0ddeea8a027690259b2403c9f57}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a3b8bc0ddeea8a027690259b2403c9f57}{left}
+\begin{DoxyCompactList}\small\item\em The left hand term of this expression (mandatory) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a7b0f1134025df83440c78636f2c1dbd3}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a7b0f1134025df83440c78636f2c1dbd3}} 
+Additive\+Op \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a7b0f1134025df83440c78636f2c1dbd3}{add\+Op}
+\begin{DoxyCompactList}\small\item\em The additive operator of this expression (mandatory if right hand side is present) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a3ca192d1465a7dfa33e7a1ece3084b54}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a3ca192d1465a7dfa33e7a1ece3084b54}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode_a3ca192d1465a7dfa33e7a1ece3084b54}{right}
+\begin{DoxyCompactList}\small\item\em The right hand side of this expression (optional) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class representing a simple expression in the A\+ST 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a882595847c545ef257df28c35ded464d}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a882595847c545ef257df28c35ded464d}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}!A\+S\+T\+Simple\+Expr\+Node@{A\+S\+T\+Simple\+Expr\+Node}}
+\index{A\+S\+T\+Simple\+Expr\+Node@{A\+S\+T\+Simple\+Expr\+Node}!parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Simple\+Expr\+Node()}{ASTSimpleExprNode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node\+::\+A\+S\+T\+Simple\+Expr\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$}]{left }\end{DoxyParamCaption})}
+
+Constructor for when the simple expression is only made up of the left hand side 
+\begin{DoxyParams}{Parameters}
+{\em left} & The left hand side term of this simple expression \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a2aa80137757c84581176e8e7e953811e}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a2aa80137757c84581176e8e7e953811e}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}!A\+S\+T\+Simple\+Expr\+Node@{A\+S\+T\+Simple\+Expr\+Node}}
+\index{A\+S\+T\+Simple\+Expr\+Node@{A\+S\+T\+Simple\+Expr\+Node}!parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Simple\+Expr\+Node()}{ASTSimpleExprNode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node\+::\+A\+S\+T\+Simple\+Expr\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$}]{left,  }\item[{Additive\+Op}]{add\+Op,  }\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{A\+S\+T\+Term\+Node} $>$}]{right }\end{DoxyParamCaption})}
+
+Constructor for when the simple expression is made up of both sides 
+\begin{DoxyParams}{Parameters}
+{\em left} & The left hand side term of this simple expression \\
+\hline
+{\em add\+Op} & The additive operator for this simple expression. This can be one of\+:
+\begin{DoxyItemize}
+\item {\ttfamily A\+DD} \+: addition
+\item {\ttfamily M\+I\+N\+US} \+: subtraction
+\item {\ttfamily OR} \+: or 
+\end{DoxyItemize}\\
+\hline
+{\em right} & The right hand side term of this simple expression. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a493a0e358cc89eb16f7a7ae9982d6527}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a493a0e358cc89eb16f7a7ae9982d6527}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_abf0a43427c061c963de936845ad3246d}\label{classparser_1_1ast_1_1ASTSimpleExprNode_abf0a43427c061c963de936845ad3246d}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}!get\+Additive\+Operator\+String@{get\+Additive\+Operator\+String}}
+\index{get\+Additive\+Operator\+String@{get\+Additive\+Operator\+String}!parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}}
+\subsubsection{\texorpdfstring{get\+Additive\+Operator\+String()}{getAdditiveOperatorString()}}
+{\footnotesize\ttfamily std\+::string parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node\+::get\+Additive\+Operator\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ad\+Op} & The additive operator to convert to a string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String representing the additive operator 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a6081b08ef618cb72ae449d1e32913ae5}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a6081b08ef618cb72ae449d1e32913ae5}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}!get\+Add\+Op@{get\+Add\+Op}}
+\index{get\+Add\+Op@{get\+Add\+Op}!parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}}
+\subsubsection{\texorpdfstring{get\+Add\+Op()}{getAddOp()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+Additive\+Op parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node\+::get\+Add\+Op (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Additive Operator type of this expression 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a351105e2c9f21b40774b6e5949fdefb8}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a351105e2c9f21b40774b6e5949fdefb8}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}!get\+Left@{get\+Left}}
+\index{get\+Left@{get\+Left}!parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}}
+\subsubsection{\texorpdfstring{get\+Left()}{getLeft()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{parser\+::ast\+::\+A\+S\+T\+Term\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node\+::get\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Pointer to the left hand side of the simple expression 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSimpleExprNode_a08c175910e5c8ed18462c9919ff08343}\label{classparser_1_1ast_1_1ASTSimpleExprNode_a08c175910e5c8ed18462c9919ff08343}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}!get\+Right@{get\+Right}}
+\index{get\+Right@{get\+Right}!parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node@{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node}}
+\subsubsection{\texorpdfstring{get\+Right()}{getRight()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTTermNode}{parser\+::ast\+::\+A\+S\+T\+Term\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node\+::get\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Pointer to the right hand side of the simple expression 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/expression/A\+S\+T\+Simple\+Expr\+Node.\+h\item 
+parser/ast/expression/A\+S\+T\+Simple\+Expr\+Node.\+cpp\end{DoxyCompactItemize}

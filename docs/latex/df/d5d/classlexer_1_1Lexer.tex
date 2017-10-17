@@ -1,0 +1,67 @@
+\hypertarget{classlexer_1_1Lexer}{}\section{lexer\+:\+:Lexer Class Reference}
+\label{classlexer_1_1Lexer}\index{lexer\+::\+Lexer@{lexer\+::\+Lexer}}
+
+
+{\ttfamily \#include $<$Lexer.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classlexer_1_1Lexer_aa41e05a67869b1ff8a9980af4e6ceb69}{Lexer} (std\+::vector$<$ std\+::string $>$ \&file\+\_\+contents)
+\item 
+\hyperlink{classlexer_1_1Token}{Token} \hyperlink{classlexer_1_1Lexer_ab44ae44ee3256fbc79b33a63b3b9bcde}{next\+Token} ()
+\item 
+std\+::pair$<$ int, int $>$ \hyperlink{classlexer_1_1Lexer_add05c7c77f92ad5a8f91123ecebec71d}{get\+Position} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This lexer acts as a D\+FA Note that this D\+FA is really an N\+FA, since the checks are those that are defined in A\+L\+P\+H\+A\+B\+E\+T\+\_\+\+P\+R\+E\+D\+I\+C\+A\+T\+ES. However, the order of these predicates is indeed a priority, starting from the highest to the lowest and as a result, the Finite-\/\+State Automata will not return more than one state, thus making it a deterministic. ` 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classlexer_1_1Lexer_aa41e05a67869b1ff8a9980af4e6ceb69}\label{classlexer_1_1Lexer_aa41e05a67869b1ff8a9980af4e6ceb69}} 
+\index{lexer\+::\+Lexer@{lexer\+::\+Lexer}!Lexer@{Lexer}}
+\index{Lexer@{Lexer}!lexer\+::\+Lexer@{lexer\+::\+Lexer}}
+\subsubsection{\texorpdfstring{Lexer()}{Lexer()}}
+{\footnotesize\ttfamily lexer\+::\+Lexer\+::\+Lexer (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{file\+\_\+contents }\end{DoxyParamCaption})}
+
+Constructor with the file contents, useful for debugging purposes. 
+\begin{DoxyParams}{Parameters}
+{\em file\+\_\+contents} & The vector with the contents of the file. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classlexer_1_1Lexer_add05c7c77f92ad5a8f91123ecebec71d}\label{classlexer_1_1Lexer_add05c7c77f92ad5a8f91123ecebec71d}} 
+\index{lexer\+::\+Lexer@{lexer\+::\+Lexer}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!lexer\+::\+Lexer@{lexer\+::\+Lexer}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily std\+::pair$<$ int, int $>$ lexer\+::\+Lexer\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the current cursor position \begin{DoxyReturn}{Returns}
+tuple containing integers as $<$row, col$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlexer_1_1Lexer_ab44ae44ee3256fbc79b33a63b3b9bcde}\label{classlexer_1_1Lexer_ab44ae44ee3256fbc79b33a63b3b9bcde}} 
+\index{lexer\+::\+Lexer@{lexer\+::\+Lexer}!next\+Token@{next\+Token}}
+\index{next\+Token@{next\+Token}!lexer\+::\+Lexer@{lexer\+::\+Lexer}}
+\subsubsection{\texorpdfstring{next\+Token()}{nextToken()}}
+{\footnotesize\ttfamily \hyperlink{classlexer_1_1Token}{lexer\+::\+Token} lexer\+::\+Lexer\+::next\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the next token that was found from the file contnets. \begin{DoxyReturn}{Returns}
+T\+He next \hyperlink{classlexer_1_1Token}{Token} to be parsed.
+\end{DoxyReturn}
+A tail recursive approach was taken to avoid accessing memory after the end of the vector \begin{DoxyReturn}{Returns}
+The next token 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Syntax\+Error} & if the lexer is unable to parse the next token. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+lexer/\hyperlink{Lexer_8h}{Lexer.\+h}\item 
+lexer/Lexer.\+cpp\end{DoxyCompactItemize}

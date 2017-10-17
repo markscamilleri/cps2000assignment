@@ -1,0 +1,91 @@
+\hypertarget{classlexer_1_1SyntaxError}{}\section{lexer\+:\+:Syntax\+Error Class Reference}
+\label{classlexer_1_1SyntaxError}\index{lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}}
+
+
+{\ttfamily \#include $<$Syntax\+Error.\+h$>$}
+
+Inheritance diagram for lexer\+:\+:Syntax\+Error\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{da/d76/classlexer_1_1SyntaxError}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classlexer_1_1SyntaxError_a262bacfa0626d21950351b0a80889478}{Syntax\+Error} (const std\+::string \&message, long line\+No, long char\+No)
+\item 
+const std\+::string \& \hyperlink{classlexer_1_1SyntaxError_a3d74d0fc324be531970cc46a3af508ba}{get\+Message} () const
+\item 
+long \hyperlink{classlexer_1_1SyntaxError_acb66cecfd69b518b0397df99ed614075}{get\+Line\+No} () const
+\item 
+long \hyperlink{classlexer_1_1SyntaxError_ac56edd0a70d044bccc02c734f62ff629}{get\+Char\+No} () const
+\item 
+const std\+::string \& \hyperlink{classlexer_1_1SyntaxError_ab240699fbd189206d810fb939e9a5a84}{get\+Error} () const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An exception that would be thrown if the lexer is unable to tokenize a lexeme 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classlexer_1_1SyntaxError_a262bacfa0626d21950351b0a80889478}\label{classlexer_1_1SyntaxError_a262bacfa0626d21950351b0a80889478}} 
+\index{lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}!Syntax\+Error@{Syntax\+Error}}
+\index{Syntax\+Error@{Syntax\+Error}!lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{Syntax\+Error()}{SyntaxError()}}
+{\footnotesize\ttfamily lexer\+::\+Syntax\+Error\+::\+Syntax\+Error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{message,  }\item[{long}]{line\+No,  }\item[{long}]{char\+No }\end{DoxyParamCaption})}
+
+Constructor for this exception 
+\begin{DoxyParams}{Parameters}
+{\em message} & The error message \\
+\hline
+{\em line\+No} & The line number where this syntax error occurred \\
+\hline
+{\em char\+No} & The character number where this syntax error occurred \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classlexer_1_1SyntaxError_ac56edd0a70d044bccc02c734f62ff629}\label{classlexer_1_1SyntaxError_ac56edd0a70d044bccc02c734f62ff629}} 
+\index{lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}!get\+Char\+No@{get\+Char\+No}}
+\index{get\+Char\+No@{get\+Char\+No}!lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{get\+Char\+No()}{getCharNo()}}
+{\footnotesize\ttfamily long lexer\+::\+Syntax\+Error\+::get\+Char\+No (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The character number this error occurred 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlexer_1_1SyntaxError_ab240699fbd189206d810fb939e9a5a84}\label{classlexer_1_1SyntaxError_ab240699fbd189206d810fb939e9a5a84}} 
+\index{lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}!get\+Error@{get\+Error}}
+\index{get\+Error@{get\+Error}!lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{get\+Error()}{getError()}}
+{\footnotesize\ttfamily const std\+::string \& lexer\+::\+Syntax\+Error\+::get\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The full error message (message + position) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlexer_1_1SyntaxError_acb66cecfd69b518b0397df99ed614075}\label{classlexer_1_1SyntaxError_acb66cecfd69b518b0397df99ed614075}} 
+\index{lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}!get\+Line\+No@{get\+Line\+No}}
+\index{get\+Line\+No@{get\+Line\+No}!lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{get\+Line\+No()}{getLineNo()}}
+{\footnotesize\ttfamily long lexer\+::\+Syntax\+Error\+::get\+Line\+No (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The line number this error occurred 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlexer_1_1SyntaxError_a3d74d0fc324be531970cc46a3af508ba}\label{classlexer_1_1SyntaxError_a3d74d0fc324be531970cc46a3af508ba}} 
+\index{lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}!get\+Message@{get\+Message}}
+\index{get\+Message@{get\+Message}!lexer\+::\+Syntax\+Error@{lexer\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{get\+Message()}{getMessage()}}
+{\footnotesize\ttfamily const std\+::string \& lexer\+::\+Syntax\+Error\+::get\+Message (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The error message 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+lexer/\hyperlink{SyntaxError_8h}{Syntax\+Error.\+h}\item 
+lexer/Syntax\+Error.\+cpp\end{DoxyCompactItemize}

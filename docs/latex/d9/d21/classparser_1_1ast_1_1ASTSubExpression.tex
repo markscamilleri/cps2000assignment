@@ -1,0 +1,92 @@
+\hypertarget{classparser_1_1ast_1_1ASTSubExpression}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Sub\+Expression Class Reference}
+\label{classparser_1_1ast_1_1ASTSubExpression}\index{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+Sub\+Expression.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Sub\+Expression\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{d9/d21/classparser_1_1ast_1_1ASTSubExpression}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTSubExpression_ad3c1de057f3edff4ce3e30d449cf0654}{A\+S\+T\+Sub\+Expression} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTSubExpression_abccfde1fa38ce0cdd3bc60993ae0e493}{expr})
+\item 
+const std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTSubExpression_ab25ef09e54236f4e10e944b09cb23935}{get\+Expr} () const
+\item 
+\hyperlink{ASTFactorNode_8h_afbe2fcc03ef15b74a0c1ed1cda7ab0e8}{Factor\+Type} \hyperlink{classparser_1_1ast_1_1ASTSubExpression_a0a7ade91b1cce64eacfb9b5f6167db3f}{get\+Factor\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTSubExpression_a684e39e8385690e9bade65731ba5803b}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSubExpression_abccfde1fa38ce0cdd3bc60993ae0e493}\label{classparser_1_1ast_1_1ASTSubExpression_abccfde1fa38ce0cdd3bc60993ae0e493}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTSubExpression_abccfde1fa38ce0cdd3bc60993ae0e493}{expr}
+\begin{DoxyCompactList}\small\item\em The expression itself. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class represneting a sub-\/expression in the A\+ST 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSubExpression_ad3c1de057f3edff4ce3e30d449cf0654}\label{classparser_1_1ast_1_1ASTSubExpression_ad3c1de057f3edff4ce3e30d449cf0654}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}!A\+S\+T\+Sub\+Expression@{A\+S\+T\+Sub\+Expression}}
+\index{A\+S\+T\+Sub\+Expression@{A\+S\+T\+Sub\+Expression}!parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Sub\+Expression()}{ASTSubExpression()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Sub\+Expression\+::\+A\+S\+T\+Sub\+Expression (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$}]{expr }\end{DoxyParamCaption})}
+
+Constructor for this sub-\/expression 
+\begin{DoxyParams}{Parameters}
+{\em expr} & pointer to the expression of this sub-\/expression \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSubExpression_a684e39e8385690e9bade65731ba5803b}\label{classparser_1_1ast_1_1ASTSubExpression_a684e39e8385690e9bade65731ba5803b}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Sub\+Expression\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSubExpression_ab25ef09e54236f4e10e944b09cb23935}\label{classparser_1_1ast_1_1ASTSubExpression_ab25ef09e54236f4e10e944b09cb23935}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}!get\+Expr@{get\+Expr}}
+\index{get\+Expr@{get\+Expr}!parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}}
+\subsubsection{\texorpdfstring{get\+Expr()}{getExpr()}}
+{\footnotesize\ttfamily const std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Sub\+Expression\+::get\+Expr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+pointer to the expression of this sub-\/expression 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTSubExpression_a0a7ade91b1cce64eacfb9b5f6167db3f}\label{classparser_1_1ast_1_1ASTSubExpression_a0a7ade91b1cce64eacfb9b5f6167db3f}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}!get\+Factor\+Type@{get\+Factor\+Type}}
+\index{get\+Factor\+Type@{get\+Factor\+Type}!parser\+::ast\+::\+A\+S\+T\+Sub\+Expression@{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression}}
+\subsubsection{\texorpdfstring{get\+Factor\+Type()}{getFactorType()}}
+{\footnotesize\ttfamily \hyperlink{ASTFactorNode_8h_afbe2fcc03ef15b74a0c1ed1cda7ab0e8}{parser\+::ast\+::\+Factor\+Type} parser\+::ast\+::\+A\+S\+T\+Sub\+Expression\+::get\+Factor\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The type of factor this is. Use instead of checking the class type. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTFactorNode_a13eea7f949c0055dea0a9d7b715f16a8}{parser\+::ast\+::\+A\+S\+T\+Factor\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/expression/factor/\hyperlink{ASTSubExpression_8h}{A\+S\+T\+Sub\+Expression.\+h}\item 
+parser/ast/expression/factor/\hyperlink{ASTSubExpression_8cpp}{A\+S\+T\+Sub\+Expression.\+cpp}\end{DoxyCompactItemize}

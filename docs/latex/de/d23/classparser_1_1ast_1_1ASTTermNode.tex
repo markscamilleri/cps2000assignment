@@ -1,0 +1,125 @@
+\hypertarget{classparser_1_1ast_1_1ASTTermNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Term\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTTermNode}\index{parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+Term\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Term\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{de/d23/classparser_1_1ast_1_1ASTTermNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTTermNode_ab37b86959cf1761c460ca678dc44aa3e}{A\+S\+T\+Term\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTTermNode_a268410bee7baf3e6dd0a1fa64fc0c0e2}{left}, \hyperlink{ASTTermNode_8h_a56419c32f44e139982c327d8375a27a7}{Multiplicative\+Op} \hyperlink{classparser_1_1ast_1_1ASTTermNode_a5fca22b04d30310ff59616a7e0863a54}{op}, std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTTermNode_a339078e4e969f51d2da01a39585db008}{right})
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTTermNode_ac8e1cb1e76e14a3f472ea58e27d079be}{A\+S\+T\+Term\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTTermNode_a268410bee7baf3e6dd0a1fa64fc0c0e2}{left})
+\item 
+const std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTTermNode_a33fd3c6c4e20f282adac752fa222d569}{get\+Left} () const
+\item 
+\hyperlink{ASTTermNode_8h_a56419c32f44e139982c327d8375a27a7}{Multiplicative\+Op} \hyperlink{classparser_1_1ast_1_1ASTTermNode_a8216196b573296bb0a0bee30a908a9af}{get\+Op} () const
+\item 
+const std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTTermNode_aa7e15b30a84f8afcd75f85c354103ca0}{get\+Right} () const
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_a1e4ede7d3314cc5b5934f7754364acd9}\label{classparser_1_1ast_1_1ASTTermNode_a1e4ede7d3314cc5b5934f7754364acd9}} 
+const std\+::string {\bfseries get\+Mutliplicative\+Op\+String} () const
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTTermNode_a4937651cff0fac499c76f8f38fa4795d}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_a268410bee7baf3e6dd0a1fa64fc0c0e2}\label{classparser_1_1ast_1_1ASTTermNode_a268410bee7baf3e6dd0a1fa64fc0c0e2}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTTermNode_a268410bee7baf3e6dd0a1fa64fc0c0e2}{left}
+\begin{DoxyCompactList}\small\item\em The left hand side factor of this term. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_a5fca22b04d30310ff59616a7e0863a54}\label{classparser_1_1ast_1_1ASTTermNode_a5fca22b04d30310ff59616a7e0863a54}} 
+\hyperlink{ASTTermNode_8h_a56419c32f44e139982c327d8375a27a7}{Multiplicative\+Op} \hyperlink{classparser_1_1ast_1_1ASTTermNode_a5fca22b04d30310ff59616a7e0863a54}{op}
+\begin{DoxyCompactList}\small\item\em The multiplicative operator of this term. Mandatory if right is not null. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_a339078e4e969f51d2da01a39585db008}\label{classparser_1_1ast_1_1ASTTermNode_a339078e4e969f51d2da01a39585db008}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTTermNode_a339078e4e969f51d2da01a39585db008}{right}
+\begin{DoxyCompactList}\small\item\em The right hand side factor of this term. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class representing a Term node in the A\+ST 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_ab37b86959cf1761c460ca678dc44aa3e}\label{classparser_1_1ast_1_1ASTTermNode_ab37b86959cf1761c460ca678dc44aa3e}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}!A\+S\+T\+Term\+Node@{A\+S\+T\+Term\+Node}}
+\index{A\+S\+T\+Term\+Node@{A\+S\+T\+Term\+Node}!parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Term\+Node()}{ASTTermNode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Term\+Node\+::\+A\+S\+T\+Term\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$}]{left,  }\item[{\hyperlink{ASTTermNode_8h_a56419c32f44e139982c327d8375a27a7}{Multiplicative\+Op}}]{op,  }\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$}]{right }\end{DoxyParamCaption})}
+
+Constructor when this Term has 2 factors (left hand side and right hand side) 
+\begin{DoxyParams}{Parameters}
+{\em left} & The left hand side of this term \\
+\hline
+{\em op} & The multiplicative operator to apply between the factors \\
+\hline
+{\em right} & The right hand side of this term \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_ac8e1cb1e76e14a3f472ea58e27d079be}\label{classparser_1_1ast_1_1ASTTermNode_ac8e1cb1e76e14a3f472ea58e27d079be}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}!A\+S\+T\+Term\+Node@{A\+S\+T\+Term\+Node}}
+\index{A\+S\+T\+Term\+Node@{A\+S\+T\+Term\+Node}!parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Term\+Node()}{ASTTermNode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Term\+Node\+::\+A\+S\+T\+Term\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{A\+S\+T\+Factor\+Node} $>$}]{left }\end{DoxyParamCaption})}
+
+Constructor when this term has only 1 factor 
+\begin{DoxyParams}{Parameters}
+{\em left} & The factor of this term \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_a4937651cff0fac499c76f8f38fa4795d}\label{classparser_1_1ast_1_1ASTTermNode_a4937651cff0fac499c76f8f38fa4795d}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Term\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_a33fd3c6c4e20f282adac752fa222d569}\label{classparser_1_1ast_1_1ASTTermNode_a33fd3c6c4e20f282adac752fa222d569}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}!get\+Left@{get\+Left}}
+\index{get\+Left@{get\+Left}!parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}}
+\subsubsection{\texorpdfstring{get\+Left()}{getLeft()}}
+{\footnotesize\ttfamily const std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{parser\+::ast\+::\+A\+S\+T\+Factor\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Term\+Node\+::get\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+a reference to the pointer to the first factor 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_a8216196b573296bb0a0bee30a908a9af}\label{classparser_1_1ast_1_1ASTTermNode_a8216196b573296bb0a0bee30a908a9af}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}!get\+Op@{get\+Op}}
+\index{get\+Op@{get\+Op}!parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}}
+\subsubsection{\texorpdfstring{get\+Op()}{getOp()}}
+{\footnotesize\ttfamily \hyperlink{ASTTermNode_8h_a56419c32f44e139982c327d8375a27a7}{parser\+::ast\+::\+Multiplicative\+Op} parser\+::ast\+::\+A\+S\+T\+Term\+Node\+::get\+Op (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+the operator that is applied to the factors 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTTermNode_aa7e15b30a84f8afcd75f85c354103ca0}\label{classparser_1_1ast_1_1ASTTermNode_aa7e15b30a84f8afcd75f85c354103ca0}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}!get\+Right@{get\+Right}}
+\index{get\+Right@{get\+Right}!parser\+::ast\+::\+A\+S\+T\+Term\+Node@{parser\+::ast\+::\+A\+S\+T\+Term\+Node}}
+\subsubsection{\texorpdfstring{get\+Right()}{getRight()}}
+{\footnotesize\ttfamily const std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTFactorNode}{parser\+::ast\+::\+A\+S\+T\+Factor\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Term\+Node\+::get\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+a reference to the pointer to the second, optional factor 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/expression/\hyperlink{ASTTermNode_8h}{A\+S\+T\+Term\+Node.\+h}\item 
+parser/ast/expression/A\+S\+T\+Term\+Node.\+cpp\end{DoxyCompactItemize}

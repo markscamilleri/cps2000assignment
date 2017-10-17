@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cps2000_assignment"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cps2000_assignment">
+				<Option output="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/cps2000_assignment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 cps2000_assignment"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cps2000_assignment/fast">
+				<Option output="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/cps2000_assignment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 cps2000_assignment/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Sync/Uni/Year\ 2/Semester\ 2/CPS2000/Assignment/cps2000_assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/Compiler.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/Compiler.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/Exception.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/FileIOException.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/FileIOException.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/IllegalArgumentException.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/IllegalArgumentException.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/SyntaxError.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/SyntaxError.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/TypeError.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/exceptions/TypeError.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/Lexer.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/Lexer.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/TokenType.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/lexer/TokenType.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/main.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/Parser.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/Parser.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTExprNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/ASTStatementNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTFactorNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTSimpleExprNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTSimpleExprNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTTermNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/ASTTermNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTFunctionCallNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTFunctionCallNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTIdentifierNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTLiteralNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTLiteralNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTSubExpression.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTSubExpression.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTUnaryNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/expression/factor/ASTUnaryNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTAssignmentNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTAssignmentNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTBlockStatementNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTFunctionDeclStatementNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTIfStatementNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTIfStatementNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTPrintStatementNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTPrintStatementNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTReturnStatementNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTReturnStatementNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTVariableDeclStatementNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTVariableDeclStatementNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTWhileStatementNode.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/parser/ast/statement/ASTWhileStatementNode.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/InterpreterVisitor.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/InterpreterVisitor.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/TypeCheckVisitor.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/TypeCheckVisitor.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/Visitor.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/XMLVisitor.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/XMLVisitor.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/ScopedSymbolTable.cpp">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/ScopedSymbolTable.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/visitor/helpers/Symbol.h">
+			<Option target="cps2000_assignment"/>
+		</Unit>
+		<Unit filename="/home/mark/Sync/Uni/Year 2/Semester 2/CPS2000/Assignment/cps2000_assignment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

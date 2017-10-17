@@ -1,0 +1,83 @@
+\hypertarget{classvisitor_1_1InterpreterVisitor}{}\section{visitor\+:\+:Interpreter\+Visitor Class Reference}
+\label{classvisitor_1_1InterpreterVisitor}\index{visitor\+::\+Interpreter\+Visitor@{visitor\+::\+Interpreter\+Visitor}}
+Inheritance diagram for visitor\+:\+:Interpreter\+Visitor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d3/d91/classvisitor_1_1InterpreterVisitor}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a41fe83fe34750c37dffe4854eb0ad009}\label{classvisitor_1_1InterpreterVisitor_a41fe83fe34750c37dffe4854eb0ad009}} 
+{\bfseries Interpreter\+Visitor} (const \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable}{helper\+::\+Scoped\+Symbol\+Table} \&symbol\+Table, const \hyperlink{structvisitor_1_1helper_1_1Symbol}{helper\+::\+Symbol} \&stack\+Ans, bool is\+Return)
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a82eb95cfdc93a496fac621cab4c8f81b}\label{classvisitor_1_1InterpreterVisitor_a82eb95cfdc93a496fac621cab4c8f81b}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_acbaa5d4aead1a8f515e2dfb05cee5fc0}\label{classvisitor_1_1InterpreterVisitor_acbaa5d4aead1a8f515e2dfb05cee5fc0}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTSimpleExprNode}{parser\+::ast\+::\+A\+S\+T\+Simple\+Expr\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a0fa4dac52a77eff5e233e0e3e36877fb}\label{classvisitor_1_1InterpreterVisitor_a0fa4dac52a77eff5e233e0e3e36877fb}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTTermNode}{parser\+::ast\+::\+A\+S\+T\+Term\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_adcc7dd80162847093191d9ba297b59be}\label{classvisitor_1_1InterpreterVisitor_adcc7dd80162847093191d9ba297b59be}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}$<$ int $>$ $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a8020c5c81d73331c1f62a40c5379eab2}\label{classvisitor_1_1InterpreterVisitor_a8020c5c81d73331c1f62a40c5379eab2}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}$<$ float $>$ $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a7354dfa5bc61a9a0772cd9bc97a21b1e}\label{classvisitor_1_1InterpreterVisitor_a7354dfa5bc61a9a0772cd9bc97a21b1e}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}$<$ bool $>$ $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a19398633cd2c6170012b31ab6a409ddd}\label{classvisitor_1_1InterpreterVisitor_a19398633cd2c6170012b31ab6a409ddd}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTLiteralNode}{parser\+::ast\+::\+A\+S\+T\+Literal\+Node}$<$ std\+::string $>$ $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_af4c36582bc131f24b21473a2ad3863e2}\label{classvisitor_1_1InterpreterVisitor_af4c36582bc131f24b21473a2ad3863e2}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTFunctionCallNode}{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a74cc15ec03e36832293260a4d044a754}\label{classvisitor_1_1InterpreterVisitor_a74cc15ec03e36832293260a4d044a754}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{parser\+::ast\+::\+A\+S\+T\+Identifier\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a18bc942a7ebfcdaa5dad72c74217afbd}\label{classvisitor_1_1InterpreterVisitor_a18bc942a7ebfcdaa5dad72c74217afbd}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTSubExpression}{parser\+::ast\+::\+A\+S\+T\+Sub\+Expression} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a78ae6427ebd645e999cca5633ed550a8}\label{classvisitor_1_1InterpreterVisitor_a78ae6427ebd645e999cca5633ed550a8}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTUnaryNode}{parser\+::ast\+::\+A\+S\+T\+Unary\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a96c185b01435b7235556b4b8f143a7e9}\label{classvisitor_1_1InterpreterVisitor_a96c185b01435b7235556b4b8f143a7e9}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTAssignmentNode}{parser\+::ast\+::\+A\+S\+T\+Assignment\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a0df27eef74e21ae2dfe5936cc2204fea}\label{classvisitor_1_1InterpreterVisitor_a0df27eef74e21ae2dfe5936cc2204fea}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode}{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_aaae681112d72ad284950bdae70fca289}\label{classvisitor_1_1InterpreterVisitor_aaae681112d72ad284950bdae70fca289}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a8794d5b1f7495b6a8530dfdd73e3ec3a}\label{classvisitor_1_1InterpreterVisitor_a8794d5b1f7495b6a8530dfdd73e3ec3a}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTFunctionDeclStatementNode}{parser\+::ast\+::\+A\+S\+T\+Function\+Decl\+Statement\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a177f5f7515bd9ab07ad6c3792fb2591c}\label{classvisitor_1_1InterpreterVisitor_a177f5f7515bd9ab07ad6c3792fb2591c}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTIfStatementNode}{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a25837b644b8527ec237445764c5c969a}\label{classvisitor_1_1InterpreterVisitor_a25837b644b8527ec237445764c5c969a}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode}{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a82515caa4e94b97d1b229447ca26d634}\label{classvisitor_1_1InterpreterVisitor_a82515caa4e94b97d1b229447ca26d634}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTPrintStatementNode}{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a3bbe6812aea4b9b7221b99e078aa89a9}\label{classvisitor_1_1InterpreterVisitor_a3bbe6812aea4b9b7221b99e078aa89a9}} 
+void {\bfseries visit} (\hyperlink{classparser_1_1ast_1_1ASTReturnStatementNode}{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node} $\ast$node) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a31210bc4525068f9ee4e56b545814205}\label{classvisitor_1_1InterpreterVisitor_a31210bc4525068f9ee4e56b545814205}} 
+void {\bfseries visit} (std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTNode}{parser\+::ast\+::\+A\+S\+T\+Node} $>$$>$ \&nodes) override
+\item 
+\mbox{\Hypertarget{classvisitor_1_1InterpreterVisitor_a361da803df3ed71e0665b065439a69f0}\label{classvisitor_1_1InterpreterVisitor_a361da803df3ed71e0665b065439a69f0}} 
+const \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable}{helper\+::\+Scoped\+Symbol\+Table} \& {\bfseries get\+Symbol\+Table} () const
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+visitor/\hyperlink{InterpreterVisitor_8h}{Interpreter\+Visitor.\+h}\item 
+visitor/\hyperlink{InterpreterVisitor_8cpp}{Interpreter\+Visitor.\+cpp}\end{DoxyCompactItemize}

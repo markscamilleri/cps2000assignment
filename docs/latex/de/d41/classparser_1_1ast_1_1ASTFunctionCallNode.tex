@@ -1,0 +1,73 @@
+\hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Function\+Call\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTFunctionCallNode}\index{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node@{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node}}
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Function\+Call\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{de/d41/classparser_1_1ast_1_1ASTFunctionCallNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode_a671c8a09cc22abb8a34f1f3945bc9360}\label{classparser_1_1ast_1_1ASTFunctionCallNode_a671c8a09cc22abb8a34f1f3945bc9360}} 
+{\bfseries A\+S\+T\+Function\+Call\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{A\+S\+T\+Identifier\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTFunctionCallNode_a77b1b97d1a948b8f48e2b67ccedda22b}{identifier}, std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$$>$ \&\hyperlink{classparser_1_1ast_1_1ASTFunctionCallNode_abb9d7f3a34dc376b885b321dc0cef0d3}{actual\+Params})
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode_aefa1003a3388b80e2144ec8fd7161b18}\label{classparser_1_1ast_1_1ASTFunctionCallNode_aefa1003a3388b80e2144ec8fd7161b18}} 
+{\bfseries A\+S\+T\+Function\+Call\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{A\+S\+T\+Identifier\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTFunctionCallNode_a77b1b97d1a948b8f48e2b67ccedda22b}{identifier})
+\item 
+\hyperlink{ASTFactorNode_8h_afbe2fcc03ef15b74a0c1ed1cda7ab0e8}{Factor\+Type} \hyperlink{classparser_1_1ast_1_1ASTFunctionCallNode_a1c40c8e98284fd4389b34da161e8b39a}{get\+Factor\+Type} () override
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode_ad5ef8ae75a99a84683f5314bab355dc4}\label{classparser_1_1ast_1_1ASTFunctionCallNode_ad5ef8ae75a99a84683f5314bab355dc4}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{A\+S\+T\+Identifier\+Node} $>$ \& {\bfseries get\+Identifier} ()
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode_a550822b2c150f4b37d7780428c565e2c}\label{classparser_1_1ast_1_1ASTFunctionCallNode_a550822b2c150f4b37d7780428c565e2c}} 
+std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ $>$ \& {\bfseries get\+Actual\+Params} ()
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTFunctionCallNode_ad7ff48d8398744b1211a6da0399a197b}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode_a77b1b97d1a948b8f48e2b67ccedda22b}\label{classparser_1_1ast_1_1ASTFunctionCallNode_a77b1b97d1a948b8f48e2b67ccedda22b}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{A\+S\+T\+Identifier\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTFunctionCallNode_a77b1b97d1a948b8f48e2b67ccedda22b}{identifier}
+\begin{DoxyCompactList}\small\item\em The function name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode_abb9d7f3a34dc376b885b321dc0cef0d3}\label{classparser_1_1ast_1_1ASTFunctionCallNode_abb9d7f3a34dc376b885b321dc0cef0d3}} 
+std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ $>$ \hyperlink{classparser_1_1ast_1_1ASTFunctionCallNode_abb9d7f3a34dc376b885b321dc0cef0d3}{actual\+Params}
+\begin{DoxyCompactList}\small\item\em The parameters to be passed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode_ad7ff48d8398744b1211a6da0399a197b}\label{classparser_1_1ast_1_1ASTFunctionCallNode_ad7ff48d8398744b1211a6da0399a197b}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node@{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node@{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTFunctionCallNode_a1c40c8e98284fd4389b34da161e8b39a}\label{classparser_1_1ast_1_1ASTFunctionCallNode_a1c40c8e98284fd4389b34da161e8b39a}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node@{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node}!get\+Factor\+Type@{get\+Factor\+Type}}
+\index{get\+Factor\+Type@{get\+Factor\+Type}!parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node@{parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node}}
+\subsubsection{\texorpdfstring{get\+Factor\+Type()}{getFactorType()}}
+{\footnotesize\ttfamily \hyperlink{ASTFactorNode_8h_afbe2fcc03ef15b74a0c1ed1cda7ab0e8}{parser\+::ast\+::\+Factor\+Type} parser\+::ast\+::\+A\+S\+T\+Function\+Call\+Node\+::get\+Factor\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The type of factor this is. Use instead of checking the class type. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTFactorNode_a13eea7f949c0055dea0a9d7b715f16a8}{parser\+::ast\+::\+A\+S\+T\+Factor\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/expression/factor/\hyperlink{ASTFunctionCallNode_8h}{A\+S\+T\+Function\+Call\+Node.\+h}\item 
+parser/ast/expression/factor/\hyperlink{ASTFunctionCallNode_8cpp}{A\+S\+T\+Function\+Call\+Node.\+cpp}\end{DoxyCompactItemize}

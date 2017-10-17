@@ -1,0 +1,178 @@
+\hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable}{}\section{visitor\+:\+:helper\+:\+:Scoped\+Symbol\+Table Class Reference}
+\label{classvisitor_1_1helper_1_1ScopedSymbolTable}\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_afa14e4f8f1b71fe6961120f55c20c50c}{add\+Entry\+To\+Symbol\+Table} (std\+::string identifier, \hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{Symbol\+Type} type)
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_afc5afd4fe70ae4556e512db38c9c257b}{add\+Entry\+To\+Symbol\+Table} (std\+::string identifier, int int\+Value)
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_a8297b38007e89b53bb8286b7afd23d37}{add\+Entry\+To\+Symbol\+Table} (std\+::string identifier, float real\+Value)
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_a4161155b0e73f398bb816a92895f5099}{add\+Entry\+To\+Symbol\+Table} (std\+::string identifier, bool bool\+Value)
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_ad9531010cb89b1fc09e4850894c957a2}{add\+Entry\+To\+Symbol\+Table} (std\+::string identifier, std\+::string string\+Value)
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_a7bd90ed126440e1110882ef00b8095ce}{add\+Entry\+To\+Symbol\+Table} (std\+::string identifier, \hyperlink{classparser_1_1ast_1_1ASTFunctionDeclStatementNode}{parser\+::ast\+::\+A\+S\+T\+Function\+Decl\+Statement\+Node} $\ast$function\+Decl\+Statement\+Node)
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_a7b1027f36d0682ea440d48230f7ec62a}{add\+Entry\+To\+Symbol\+Table} (std\+::string identifier, \hyperlink{structvisitor_1_1helper_1_1Symbol}{Symbol} value)
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_a4938e3fb5c563484363538994a080be8}{add\+Scope} ()
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_afbeb4833a967d03a31f00306b5c21eb1}{pop\+Scope} ()
+\item 
+bool \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_a173eb4fb447dfcc8f8eaedfffeb7ae97}{check\+Symbol\+Exists} (std\+::string identifier)
+\item 
+\hyperlink{structvisitor_1_1helper_1_1Symbol}{Symbol} \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_a30038c7ddf4e21666d163d3f41382ff1}{get\+Symbol} (std\+::string identifier)
+\item 
+void \hyperlink{classvisitor_1_1helper_1_1ScopedSymbolTable_aaacddfaa8cb0843ba2821bd898270a1a}{change\+Symbol\+Value} (std\+::string identifier, \hyperlink{structvisitor_1_1helper_1_1Symbol}{Symbol} value)
+\item 
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_a52b16de9cb62ca65654e2ceb97bda9b4}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_a52b16de9cb62ca65654e2ceb97bda9b4}} 
+const std\+::vector$<$ std\+::unique\+\_\+ptr$<$ std\+::map$<$ std\+::string, \hyperlink{structvisitor_1_1helper_1_1Symbol}{Symbol} $>$ $>$ $>$ \& {\bfseries get\+Symbol\+Table} () const
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_afa14e4f8f1b71fe6961120f55c20c50c}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_afa14e4f8f1b71fe6961120f55c20c50c}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}}
+\index{add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{add\+Entry\+To\+Symbol\+Table()}{addEntryToSymbolTable()}\hspace{0.1cm}{\footnotesize\ttfamily [1/7]}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::add\+Entry\+To\+Symbol\+Table (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{\hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{Symbol\+Type}}]{type }\end{DoxyParamCaption})}
+
+Adds an entry to the symbol table at the last scope created. 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the identifier to add \\
+\hline
+{\em type} & the identifier\textquotesingle{}s type. if this is a function, it must be the return type. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_afc5afd4fe70ae4556e512db38c9c257b}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_afc5afd4fe70ae4556e512db38c9c257b}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}}
+\index{add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{add\+Entry\+To\+Symbol\+Table()}{addEntryToSymbolTable()}\hspace{0.1cm}{\footnotesize\ttfamily [2/7]}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::add\+Entry\+To\+Symbol\+Table (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{int}]{int\+Value }\end{DoxyParamCaption})}
+
+Adds an entry to the symbol table at the last scope created. 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the identifier to add \\
+\hline
+{\em int\+Value} & the integer value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_a8297b38007e89b53bb8286b7afd23d37}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_a8297b38007e89b53bb8286b7afd23d37}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}}
+\index{add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{add\+Entry\+To\+Symbol\+Table()}{addEntryToSymbolTable()}\hspace{0.1cm}{\footnotesize\ttfamily [3/7]}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::add\+Entry\+To\+Symbol\+Table (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{float}]{real\+Value }\end{DoxyParamCaption})}
+
+Adds an entry to the symbol table at the last scope created. 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the identifier to add \\
+\hline
+{\em real\+Value} & the real value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_a4161155b0e73f398bb816a92895f5099}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_a4161155b0e73f398bb816a92895f5099}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}}
+\index{add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{add\+Entry\+To\+Symbol\+Table()}{addEntryToSymbolTable()}\hspace{0.1cm}{\footnotesize\ttfamily [4/7]}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::add\+Entry\+To\+Symbol\+Table (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{bool}]{bool\+Value }\end{DoxyParamCaption})}
+
+Adds an entry to the symbol table at the last scope created. 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the identifier to add \\
+\hline
+{\em bool\+Value} & the Boolean Value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_ad9531010cb89b1fc09e4850894c957a2}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_ad9531010cb89b1fc09e4850894c957a2}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}}
+\index{add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{add\+Entry\+To\+Symbol\+Table()}{addEntryToSymbolTable()}\hspace{0.1cm}{\footnotesize\ttfamily [5/7]}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::add\+Entry\+To\+Symbol\+Table (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{std\+::string}]{string\+Value }\end{DoxyParamCaption})}
+
+Adds an entry to the symbol table at the last scope created. 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the identifier to add \\
+\hline
+{\em string\+Value} & the string value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_a7bd90ed126440e1110882ef00b8095ce}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_a7bd90ed126440e1110882ef00b8095ce}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}}
+\index{add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{add\+Entry\+To\+Symbol\+Table()}{addEntryToSymbolTable()}\hspace{0.1cm}{\footnotesize\ttfamily [6/7]}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::add\+Entry\+To\+Symbol\+Table (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{\hyperlink{classparser_1_1ast_1_1ASTFunctionDeclStatementNode}{parser\+::ast\+::\+A\+S\+T\+Function\+Decl\+Statement\+Node} $\ast$}]{function\+Decl\+Statement\+Node }\end{DoxyParamCaption})}
+
+Adds an entry to the symbol table at the last scope created when the type is unknown but given to be correct 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the identifier to add \\
+\hline
+{\em value} & the value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_a7b1027f36d0682ea440d48230f7ec62a}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_a7b1027f36d0682ea440d48230f7ec62a}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}}
+\index{add\+Entry\+To\+Symbol\+Table@{add\+Entry\+To\+Symbol\+Table}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{add\+Entry\+To\+Symbol\+Table()}{addEntryToSymbolTable()}\hspace{0.1cm}{\footnotesize\ttfamily [7/7]}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::add\+Entry\+To\+Symbol\+Table (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{\hyperlink{structvisitor_1_1helper_1_1Symbol}{Symbol}}]{value }\end{DoxyParamCaption})}
+
+Adds an entry to the symbol table at the last scope created when the type is unknown but given to be correct 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the identifier to add \\
+\hline
+{\em value} & the value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_a4938e3fb5c563484363538994a080be8}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_a4938e3fb5c563484363538994a080be8}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!add\+Scope@{add\+Scope}}
+\index{add\+Scope@{add\+Scope}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{add\+Scope()}{addScope()}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::add\+Scope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Adds a scope and creates a symbol table for it \begin{DoxyReturn}{Returns}
+true if sucessful, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_aaacddfaa8cb0843ba2821bd898270a1a}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_aaacddfaa8cb0843ba2821bd898270a1a}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!change\+Symbol\+Value@{change\+Symbol\+Value}}
+\index{change\+Symbol\+Value@{change\+Symbol\+Value}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{change\+Symbol\+Value()}{changeSymbolValue()}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::change\+Symbol\+Value (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier,  }\item[{\hyperlink{structvisitor_1_1helper_1_1Symbol}{Symbol}}]{value }\end{DoxyParamCaption})}
+
+Changes an entry to the symbol table at the last scope it was created 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the identifier to change \\
+\hline
+{\em value} & the value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_a173eb4fb447dfcc8f8eaedfffeb7ae97}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_a173eb4fb447dfcc8f8eaedfffeb7ae97}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!check\+Symbol\+Exists@{check\+Symbol\+Exists}}
+\index{check\+Symbol\+Exists@{check\+Symbol\+Exists}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{check\+Symbol\+Exists()}{checkSymbolExists()}}
+{\footnotesize\ttfamily bool visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::check\+Symbol\+Exists (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier }\end{DoxyParamCaption})}
+
+Checks whether the identifier given exists or not \begin{DoxyReturn}{Returns}
+true if the identifier is found, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_a30038c7ddf4e21666d163d3f41382ff1}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_a30038c7ddf4e21666d163d3f41382ff1}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!get\+Symbol@{get\+Symbol}}
+\index{get\+Symbol@{get\+Symbol}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{get\+Symbol()}{getSymbol()}}
+{\footnotesize\ttfamily \hyperlink{structvisitor_1_1helper_1_1Symbol}{visitor\+::helper\+::\+Symbol} visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::get\+Symbol (\begin{DoxyParamCaption}\item[{std\+::string}]{identifier }\end{DoxyParamCaption})}
+
+Gets the type of the symbol. Throws a Type\+Error if the symbol is not found. \begin{DoxyReturn}{Returns}
+the Symbol\+Type of the identifier 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classvisitor_1_1helper_1_1ScopedSymbolTable_afbeb4833a967d03a31f00306b5c21eb1}\label{classvisitor_1_1helper_1_1ScopedSymbolTable_afbeb4833a967d03a31f00306b5c21eb1}} 
+\index{visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}!pop\+Scope@{pop\+Scope}}
+\index{pop\+Scope@{pop\+Scope}!visitor\+::helper\+::\+Scoped\+Symbol\+Table@{visitor\+::helper\+::\+Scoped\+Symbol\+Table}}
+\subsubsection{\texorpdfstring{pop\+Scope()}{popScope()}}
+{\footnotesize\ttfamily void visitor\+::helper\+::\+Scoped\+Symbol\+Table\+::pop\+Scope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Removes the last scope from this symbol table, and all it\textquotesingle{}s symbols 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+visitor/helpers/\hyperlink{ScopedSymbolTable_8h}{Scoped\+Symbol\+Table.\+h}\item 
+visitor/helpers/\hyperlink{ScopedSymbolTable_8cpp}{Scoped\+Symbol\+Table.\+cpp}\end{DoxyCompactItemize}

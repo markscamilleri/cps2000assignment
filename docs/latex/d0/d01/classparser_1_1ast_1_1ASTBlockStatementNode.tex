@@ -1,0 +1,89 @@
+\hypertarget{classparser_1_1ast_1_1ASTBlockStatementNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Block\+Statement\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTBlockStatementNode}\index{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}}
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Block\+Statement\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{d0/d01/classparser_1_1ast_1_1ASTBlockStatementNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTBlockStatementNode_a029059bf25ef46594d1c48bff34c6612}\label{classparser_1_1ast_1_1ASTBlockStatementNode_a029059bf25ef46594d1c48bff34c6612}} 
+\hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode_a029059bf25ef46594d1c48bff34c6612}{A\+S\+T\+Block\+Statement\+Node} ()
+\begin{DoxyCompactList}\small\item\em Default constructor, with an empty block. \end{DoxyCompactList}\item 
+\hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode_a69b3e477b9945bb1567560f2951c9bcd}{A\+S\+T\+Block\+Statement\+Node} (std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTStatementNode}{A\+S\+T\+Statement\+Node} $>$$>$ \&contents)
+\item 
+Statement\+Type \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode_aec80a6d582f0b9691dbd33d0d5ecb975}{get\+Statement\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode_ae0e7e04747661471aade0c1509c37422}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTStatementNode}{A\+S\+T\+Statement\+Node} $>$ $>$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode_abbd8aa518677035cba32a20a4d7135ac}{block\+Contents}
+\begin{DoxyCompactList}\small\item\em The contents of this block. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTBlockStatementNode_a69b3e477b9945bb1567560f2951c9bcd}\label{classparser_1_1ast_1_1ASTBlockStatementNode_a69b3e477b9945bb1567560f2951c9bcd}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}!A\+S\+T\+Block\+Statement\+Node@{A\+S\+T\+Block\+Statement\+Node}}
+\index{A\+S\+T\+Block\+Statement\+Node@{A\+S\+T\+Block\+Statement\+Node}!parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Block\+Statement\+Node()}{ASTBlockStatementNode()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node\+::\+A\+S\+T\+Block\+Statement\+Node (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTStatementNode}{A\+S\+T\+Statement\+Node} $>$$>$ \&}]{contents }\end{DoxyParamCaption})}
+
+Constructor for known block 
+\begin{DoxyParams}{Parameters}
+{\em block\+Contents} & The statements in this block. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTBlockStatementNode_ae0e7e04747661471aade0c1509c37422}\label{classparser_1_1ast_1_1ASTBlockStatementNode_ae0e7e04747661471aade0c1509c37422}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTBlockStatementNode_aec80a6d582f0b9691dbd33d0d5ecb975}\label{classparser_1_1ast_1_1ASTBlockStatementNode_aec80a6d582f0b9691dbd33d0d5ecb975}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}!get\+Statement\+Type@{get\+Statement\+Type}}
+\index{get\+Statement\+Type@{get\+Statement\+Type}!parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Statement\+Type()}{getStatementType()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+Statement\+Type parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node\+::get\+Statement\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Virtual Method to return the statement type \begin{DoxyReturn}{Returns}
+The statement type (instead of checking what class it\textquotesingle{}s an instance of) 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTStatementNode_ac381d35d12f774a1bab0e209c5bfec1f}{parser\+::ast\+::\+A\+S\+T\+Statement\+Node}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTBlockStatementNode_abbd8aa518677035cba32a20a4d7135ac}\label{classparser_1_1ast_1_1ASTBlockStatementNode_abbd8aa518677035cba32a20a4d7135ac}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}!block\+Contents@{block\+Contents}}
+\index{block\+Contents@{block\+Contents}!parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node}}
+\subsubsection{\texorpdfstring{block\+Contents}{blockContents}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::unique\+\_\+ptr$<$\hyperlink{classparser_1_1ast_1_1ASTStatementNode}{A\+S\+T\+Statement\+Node}$>$ $>$ parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node\+::block\+Contents}
+
+
+
+The contents of this block. 
+
+This has a public visibility since \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} is really a wrapper. A {\ttfamily typedef} wasn\textquotesingle{}t used due to the inheritance scheme for this class. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/statement/\hyperlink{ASTBlockStatementNode_8h}{A\+S\+T\+Block\+Statement\+Node.\+h}\item 
+parser/ast/statement/A\+S\+T\+Block\+Statement\+Node.\+cpp\end{DoxyCompactItemize}

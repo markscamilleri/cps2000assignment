@@ -1,0 +1,139 @@
+\hypertarget{classparser_1_1ast_1_1ASTIfStatementNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+If\+Statement\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTIfStatementNode}\index{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+If\+Statement\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+If\+Statement\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{d3/de4/classparser_1_1ast_1_1ASTIfStatementNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a7a1228f06863f6c661941a718edf0f76}{A\+S\+T\+If\+Statement\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_aa03b517ecf838b4ca92290f85873dacc}{predicate}, std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a41ce2a7eef7e04f060d06fd39b1634e9}{block\+If\+True}, std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a763d7c0df1b663ba69a38f5b744586f0}{block\+If\+False})
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a58f5fc968c7f49efa5acb3611af92696}{A\+S\+T\+If\+Statement\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_aa03b517ecf838b4ca92290f85873dacc}{predicate}, std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a41ce2a7eef7e04f060d06fd39b1634e9}{block\+If\+True})
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a709b472f90a91edf309c77cfc5fc0b25}{get\+Predicate} ()
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a2db9e09e077f5fbb99c101ee0bf02887}{get\+Block\+If\+True} ()
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a1f66f144fdb82bff3ead69fd563bcf73}{get\+Block\+If\+False} ()
+\item 
+Statement\+Type \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_aebe9139e5ee81c851aa01fd292635562}{get\+Statement\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a946a8196020e5d6c1a51a74d84d98e80}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_aa03b517ecf838b4ca92290f85873dacc}\label{classparser_1_1ast_1_1ASTIfStatementNode_aa03b517ecf838b4ca92290f85873dacc}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_aa03b517ecf838b4ca92290f85873dacc}{predicate}
+\begin{DoxyCompactList}\small\item\em The condition of the if statement. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_a41ce2a7eef7e04f060d06fd39b1634e9}\label{classparser_1_1ast_1_1ASTIfStatementNode_a41ce2a7eef7e04f060d06fd39b1634e9}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a41ce2a7eef7e04f060d06fd39b1634e9}{block\+If\+True}
+\begin{DoxyCompactList}\small\item\em The block to execute if the predicate holds. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_a763d7c0df1b663ba69a38f5b744586f0}\label{classparser_1_1ast_1_1ASTIfStatementNode_a763d7c0df1b663ba69a38f5b744586f0}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTIfStatementNode_a763d7c0df1b663ba69a38f5b744586f0}{block\+If\+False}
+\begin{DoxyCompactList}\small\item\em The block to execute if the predicate does not hold. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents an \char`\"{}if else\char`\"{} statment in the A\+ST This would also represent an \char`\"{}if\char`\"{} statmement by not having an else block 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_a7a1228f06863f6c661941a718edf0f76}\label{classparser_1_1ast_1_1ASTIfStatementNode_a7a1228f06863f6c661941a718edf0f76}} 
+\index{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}!A\+S\+T\+If\+Statement\+Node@{A\+S\+T\+If\+Statement\+Node}}
+\index{A\+S\+T\+If\+Statement\+Node@{A\+S\+T\+If\+Statement\+Node}!parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+If\+Statement\+Node()}{ASTIfStatementNode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node\+::\+A\+S\+T\+If\+Statement\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$}]{predicate,  }\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$}]{block\+If\+True,  }\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$}]{block\+If\+False }\end{DoxyParamCaption})}
+
+This is the constructor for an if-\/else statmeent 
+\begin{DoxyParams}{Parameters}
+{\em predicate} & The condition to the if statement \\
+\hline
+{\em block\+If\+True} & The block to execute if the predicate holds \\
+\hline
+{\em block\+If\+False} & The block to exiecute if the predicate does not hold \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_a58f5fc968c7f49efa5acb3611af92696}\label{classparser_1_1ast_1_1ASTIfStatementNode_a58f5fc968c7f49efa5acb3611af92696}} 
+\index{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}!A\+S\+T\+If\+Statement\+Node@{A\+S\+T\+If\+Statement\+Node}}
+\index{A\+S\+T\+If\+Statement\+Node@{A\+S\+T\+If\+Statement\+Node}!parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+If\+Statement\+Node()}{ASTIfStatementNode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node\+::\+A\+S\+T\+If\+Statement\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$}]{predicate,  }\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$}]{block\+If\+True }\end{DoxyParamCaption})}
+
+This is the constructor for an if statmeent 
+\begin{DoxyParams}{Parameters}
+{\em predicate} & The condition to the if statement \\
+\hline
+{\em block\+If\+True} & The block to execute if the predicate holds \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_a946a8196020e5d6c1a51a74d84d98e80}\label{classparser_1_1ast_1_1ASTIfStatementNode_a946a8196020e5d6c1a51a74d84d98e80}} 
+\index{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_a1f66f144fdb82bff3ead69fd563bcf73}\label{classparser_1_1ast_1_1ASTIfStatementNode_a1f66f144fdb82bff3ead69fd563bcf73}} 
+\index{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}!get\+Block\+If\+False@{get\+Block\+If\+False}}
+\index{get\+Block\+If\+False@{get\+Block\+If\+False}!parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Block\+If\+False()}{getBlockIfFalse()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node\+::get\+Block\+If\+False (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The block to execute if the predicate does not hold 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_a2db9e09e077f5fbb99c101ee0bf02887}\label{classparser_1_1ast_1_1ASTIfStatementNode_a2db9e09e077f5fbb99c101ee0bf02887}} 
+\index{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}!get\+Block\+If\+True@{get\+Block\+If\+True}}
+\index{get\+Block\+If\+True@{get\+Block\+If\+True}!parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Block\+If\+True()}{getBlockIfTrue()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node\+::get\+Block\+If\+True (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The block to execute if the predicate holds 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_a709b472f90a91edf309c77cfc5fc0b25}\label{classparser_1_1ast_1_1ASTIfStatementNode_a709b472f90a91edf309c77cfc5fc0b25}} 
+\index{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}!get\+Predicate@{get\+Predicate}}
+\index{get\+Predicate@{get\+Predicate}!parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Predicate()}{getPredicate()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node\+::get\+Predicate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The predicate expression of the if statement 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTIfStatementNode_aebe9139e5ee81c851aa01fd292635562}\label{classparser_1_1ast_1_1ASTIfStatementNode_aebe9139e5ee81c851aa01fd292635562}} 
+\index{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}!get\+Statement\+Type@{get\+Statement\+Type}}
+\index{get\+Statement\+Type@{get\+Statement\+Type}!parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Statement\+Type()}{getStatementType()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+Statement\+Type parser\+::ast\+::\+A\+S\+T\+If\+Statement\+Node\+::get\+Statement\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Virtual Method to return the statement type \begin{DoxyReturn}{Returns}
+The statement type (instead of checking what class it\textquotesingle{}s an instance of) 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTStatementNode_ac381d35d12f774a1bab0e209c5bfec1f}{parser\+::ast\+::\+A\+S\+T\+Statement\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/statement/\hyperlink{ASTIfStatementNode_8h}{A\+S\+T\+If\+Statement\+Node.\+h}\item 
+parser/ast/statement/A\+S\+T\+If\+Statement\+Node.\+cpp\end{DoxyCompactItemize}

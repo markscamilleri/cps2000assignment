@@ -1,0 +1,92 @@
+\hypertarget{classparser_1_1ast_1_1ASTPrintStatementNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Print\+Statement\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTPrintStatementNode}\index{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+Print\+Statement\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Print\+Statement\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{d0/d40/classparser_1_1ast_1_1ASTPrintStatementNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTPrintStatementNode_a078c63cee6196eb39232a1004614f2f2}{A\+S\+T\+Print\+Statement\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTPrintStatementNode_a6e7ab83be122fb4f6428b5222faf7169}{expr})
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTPrintStatementNode_a4e244a1d7f8c390c6772c2f2bab863a2}{get\+Expr} ()
+\item 
+Statement\+Type \hyperlink{classparser_1_1ast_1_1ASTPrintStatementNode_a9526c5de33100e05f1ccba710c0a9a34}{get\+Statement\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTPrintStatementNode_a15199624d689c55bd6d027132d2a9a64}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTPrintStatementNode_a6e7ab83be122fb4f6428b5222faf7169}\label{classparser_1_1ast_1_1ASTPrintStatementNode_a6e7ab83be122fb4f6428b5222faf7169}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTPrintStatementNode_a6e7ab83be122fb4f6428b5222faf7169}{expr}
+\begin{DoxyCompactList}\small\item\em The expression whose result will be printed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents a print statement node in the A\+ST 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTPrintStatementNode_a078c63cee6196eb39232a1004614f2f2}\label{classparser_1_1ast_1_1ASTPrintStatementNode_a078c63cee6196eb39232a1004614f2f2}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}!A\+S\+T\+Print\+Statement\+Node@{A\+S\+T\+Print\+Statement\+Node}}
+\index{A\+S\+T\+Print\+Statement\+Node@{A\+S\+T\+Print\+Statement\+Node}!parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Print\+Statement\+Node()}{ASTPrintStatementNode()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node\+::\+A\+S\+T\+Print\+Statement\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$}]{expr }\end{DoxyParamCaption})}
+
+The constructor of this class 
+\begin{DoxyParams}{Parameters}
+{\em expr} & The expression whose result will be printed \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTPrintStatementNode_a15199624d689c55bd6d027132d2a9a64}\label{classparser_1_1ast_1_1ASTPrintStatementNode_a15199624d689c55bd6d027132d2a9a64}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTPrintStatementNode_a4e244a1d7f8c390c6772c2f2bab863a2}\label{classparser_1_1ast_1_1ASTPrintStatementNode_a4e244a1d7f8c390c6772c2f2bab863a2}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}!get\+Expr@{get\+Expr}}
+\index{get\+Expr@{get\+Expr}!parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Expr()}{getExpr()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node\+::get\+Expr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The expression whose result will be printed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTPrintStatementNode_a9526c5de33100e05f1ccba710c0a9a34}\label{classparser_1_1ast_1_1ASTPrintStatementNode_a9526c5de33100e05f1ccba710c0a9a34}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}!get\+Statement\+Type@{get\+Statement\+Type}}
+\index{get\+Statement\+Type@{get\+Statement\+Type}!parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Statement\+Type()}{getStatementType()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+Statement\+Type parser\+::ast\+::\+A\+S\+T\+Print\+Statement\+Node\+::get\+Statement\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Virtual Method to return the statement type \begin{DoxyReturn}{Returns}
+The statement type (instead of checking what class it\textquotesingle{}s an instance of) 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTStatementNode_ac381d35d12f774a1bab0e209c5bfec1f}{parser\+::ast\+::\+A\+S\+T\+Statement\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/statement/\hyperlink{ASTPrintStatementNode_8h}{A\+S\+T\+Print\+Statement\+Node.\+h}\item 
+parser/ast/statement/A\+S\+T\+Print\+Statement\+Node.\+cpp\end{DoxyCompactItemize}

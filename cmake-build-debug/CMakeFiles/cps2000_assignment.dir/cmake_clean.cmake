@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cps2000_assignment.dir/lexer/Lexer.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/ASTExprNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/exceptions/FileIOException.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/lexer/TokenType.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/exceptions/SyntaxError.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/statement/ASTVariableDeclStatementNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/statement/ASTAssignmentNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/statement/ASTPrintStatementNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/statement/ASTIfStatementNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/statement/ASTWhileStatementNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/statement/ASTReturnStatementNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/statement/ASTFunctionDeclStatementNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/statement/ASTBlockStatementNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/Compiler.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/expression/ASTSimpleExprNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/expression/ASTTermNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/exceptions/IllegalArgumentException.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/exceptions/Exception.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/expression/factor/ASTSubExpression.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/expression/factor/ASTLiteralNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/expression/factor/ASTIdentifierNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/expression/factor/ASTFunctionCallNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/ast/expression/factor/ASTUnaryNode.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/parser/Parser.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/visitor/XMLVisitor.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/main.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/visitor/helpers/ScopedSymbolTable.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/exceptions/TypeError.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/visitor/TypeCheckVisitor.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/visitor/Visitor.cpp.o"
+  "CMakeFiles/cps2000_assignment.dir/visitor/InterpreterVisitor.cpp.o"
+  "cps2000_assignment.pdb"
+  "cps2000_assignment"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/cps2000_assignment.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

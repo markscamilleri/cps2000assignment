@@ -1,0 +1,124 @@
+\hypertarget{classparser_1_1ast_1_1ASTUnaryNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Unary\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTUnaryNode}\index{parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+Unary\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Unary\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{d0/d6c/classparser_1_1ast_1_1ASTUnaryNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a13654e3c80e4e31f55ad21d6edd6ee29}{A\+S\+T\+Unary\+Node} (\hyperlink{ASTUnaryNode_8h_a3bd5cd6c8af529b35a5e745ad51d5cdf}{Unary\+Operator} \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a23a33ca1da4fb0fa2756e938e3aea686}{op}, std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a9c40af1c793969cdefcdbadd953ad0ca}{expr})
+\item 
+\hyperlink{ASTUnaryNode_8h_a3bd5cd6c8af529b35a5e745ad51d5cdf}{Unary\+Operator} \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a162e6f618c42d077d526decfde550a48}{get\+Op} () const
+\item 
+const std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a144541a1fef1be081ad57bfc0ce0039f}{get\+Expr} () const
+\item 
+const std\+::string \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_ad4c36dae695c49e099bc5deed83ee7da}{get\+Op\+String} () const
+\item 
+\hyperlink{ASTFactorNode_8h_afbe2fcc03ef15b74a0c1ed1cda7ab0e8}{Factor\+Type} \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a1056ebc5c34b6f3b0a5485f4cd5ba3c0}{get\+Factor\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a4b3bd9c26548e1fb73a82fd5b20add0b}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTUnaryNode_a23a33ca1da4fb0fa2756e938e3aea686}\label{classparser_1_1ast_1_1ASTUnaryNode_a23a33ca1da4fb0fa2756e938e3aea686}} 
+\hyperlink{ASTUnaryNode_8h_a3bd5cd6c8af529b35a5e745ad51d5cdf}{Unary\+Operator} \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a23a33ca1da4fb0fa2756e938e3aea686}{op}
+\begin{DoxyCompactList}\small\item\em Operator to use for this Unary. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTUnaryNode_a9c40af1c793969cdefcdbadd953ad0ca}\label{classparser_1_1ast_1_1ASTUnaryNode_a9c40af1c793969cdefcdbadd953ad0ca}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTUnaryNode_a9c40af1c793969cdefcdbadd953ad0ca}{expr}
+\begin{DoxyCompactList}\small\item\em Expression for this unary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that represents a unary expression in the A\+ST 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTUnaryNode_a13654e3c80e4e31f55ad21d6edd6ee29}\label{classparser_1_1ast_1_1ASTUnaryNode_a13654e3c80e4e31f55ad21d6edd6ee29}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}!A\+S\+T\+Unary\+Node@{A\+S\+T\+Unary\+Node}}
+\index{A\+S\+T\+Unary\+Node@{A\+S\+T\+Unary\+Node}!parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Unary\+Node()}{ASTUnaryNode()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Unary\+Node\+::\+A\+S\+T\+Unary\+Node (\begin{DoxyParamCaption}\item[{\hyperlink{ASTUnaryNode_8h_a3bd5cd6c8af529b35a5e745ad51d5cdf}{Unary\+Operator}}]{op,  }\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$}]{expr }\end{DoxyParamCaption})}
+
+Constructor to use for this class 
+\begin{DoxyParams}{Parameters}
+{\em op} & The operator \\
+\hline
+{\em expr} & The expression it is applied on \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTUnaryNode_a4b3bd9c26548e1fb73a82fd5b20add0b}\label{classparser_1_1ast_1_1ASTUnaryNode_a4b3bd9c26548e1fb73a82fd5b20add0b}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Unary\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTUnaryNode_a144541a1fef1be081ad57bfc0ce0039f}\label{classparser_1_1ast_1_1ASTUnaryNode_a144541a1fef1be081ad57bfc0ce0039f}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}!get\+Expr@{get\+Expr}}
+\index{get\+Expr@{get\+Expr}!parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}}
+\subsubsection{\texorpdfstring{get\+Expr()}{getExpr()}}
+{\footnotesize\ttfamily const std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Unary\+Node\+::get\+Expr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+the expression after the operator 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTUnaryNode_a1056ebc5c34b6f3b0a5485f4cd5ba3c0}\label{classparser_1_1ast_1_1ASTUnaryNode_a1056ebc5c34b6f3b0a5485f4cd5ba3c0}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}!get\+Factor\+Type@{get\+Factor\+Type}}
+\index{get\+Factor\+Type@{get\+Factor\+Type}!parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}}
+\subsubsection{\texorpdfstring{get\+Factor\+Type()}{getFactorType()}}
+{\footnotesize\ttfamily \hyperlink{ASTFactorNode_8h_afbe2fcc03ef15b74a0c1ed1cda7ab0e8}{parser\+::ast\+::\+Factor\+Type} parser\+::ast\+::\+A\+S\+T\+Unary\+Node\+::get\+Factor\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The type of factor this is. Use instead of checking the class type. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTFactorNode_a13eea7f949c0055dea0a9d7b715f16a8}{parser\+::ast\+::\+A\+S\+T\+Factor\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTUnaryNode_a162e6f618c42d077d526decfde550a48}\label{classparser_1_1ast_1_1ASTUnaryNode_a162e6f618c42d077d526decfde550a48}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}!get\+Op@{get\+Op}}
+\index{get\+Op@{get\+Op}!parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}}
+\subsubsection{\texorpdfstring{get\+Op()}{getOp()}}
+{\footnotesize\ttfamily \hyperlink{ASTUnaryNode_8h_a3bd5cd6c8af529b35a5e745ad51d5cdf}{parser\+::ast\+::\+Unary\+Operator} parser\+::ast\+::\+A\+S\+T\+Unary\+Node\+::get\+Op (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+the unary operator 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTUnaryNode_ad4c36dae695c49e099bc5deed83ee7da}\label{classparser_1_1ast_1_1ASTUnaryNode_ad4c36dae695c49e099bc5deed83ee7da}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}!get\+Op\+String@{get\+Op\+String}}
+\index{get\+Op\+String@{get\+Op\+String}!parser\+::ast\+::\+A\+S\+T\+Unary\+Node@{parser\+::ast\+::\+A\+S\+T\+Unary\+Node}}
+\subsubsection{\texorpdfstring{get\+Op\+String()}{getOpString()}}
+{\footnotesize\ttfamily const std\+::string parser\+::ast\+::\+A\+S\+T\+Unary\+Node\+::get\+Op\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Converts a Unary Operator to a string representation of it 
+\begin{DoxyParams}{Parameters}
+{\em op} & the operator to convert to a string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the string representation of that operator 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/expression/factor/\hyperlink{ASTUnaryNode_8h}{A\+S\+T\+Unary\+Node.\+h}\item 
+parser/ast/expression/factor/\hyperlink{ASTUnaryNode_8cpp}{A\+S\+T\+Unary\+Node.\+cpp}\end{DoxyCompactItemize}

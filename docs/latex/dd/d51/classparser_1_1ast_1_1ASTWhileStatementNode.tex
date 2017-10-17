@@ -1,0 +1,108 @@
+\hypertarget{classparser_1_1ast_1_1ASTWhileStatementNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+While\+Statement\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTWhileStatementNode}\index{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+While\+Statement\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+While\+Statement\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{dd/d51/classparser_1_1ast_1_1ASTWhileStatementNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_a099a29ffe3bca12fac6a7904d52b9c6a}{A\+S\+T\+While\+Statement\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_aef13a0ab19cfd381066af8c066e341e1}{predicate}, std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_ae88c633373308600c37d89db84980363}{loop\+Block})
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_af0a556a314a4b06858d8f47c94e64b86}{get\+Predicate} ()
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_a17d4d7573477af83900a6dda33c29e78}{get\+Loop\+Block} ()
+\item 
+Statement\+Type \hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_a47ad4212e8bae1bbe602918044e39cd8}{get\+Statement\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_a448a46d9dbde688562ada266192735c8}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTWhileStatementNode_aef13a0ab19cfd381066af8c066e341e1}\label{classparser_1_1ast_1_1ASTWhileStatementNode_aef13a0ab19cfd381066af8c066e341e1}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_aef13a0ab19cfd381066af8c066e341e1}{predicate}
+\begin{DoxyCompactList}\small\item\em The predicate to be satisfied for the loop to keep executing. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTWhileStatementNode_ae88c633373308600c37d89db84980363}\label{classparser_1_1ast_1_1ASTWhileStatementNode_ae88c633373308600c37d89db84980363}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTWhileStatementNode_ae88c633373308600c37d89db84980363}{loop\+Block}
+\begin{DoxyCompactList}\small\item\em The block to be executed in the while loop. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents a while statement node in the A\+ST for the Minilang language 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTWhileStatementNode_a099a29ffe3bca12fac6a7904d52b9c6a}\label{classparser_1_1ast_1_1ASTWhileStatementNode_a099a29ffe3bca12fac6a7904d52b9c6a}} 
+\index{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}!A\+S\+T\+While\+Statement\+Node@{A\+S\+T\+While\+Statement\+Node}}
+\index{A\+S\+T\+While\+Statement\+Node@{A\+S\+T\+While\+Statement\+Node}!parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+While\+Statement\+Node()}{ASTWhileStatementNode()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node\+::\+A\+S\+T\+While\+Statement\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$}]{predicate,  }\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{A\+S\+T\+Block\+Statement\+Node} $>$}]{loop\+Block }\end{DoxyParamCaption})}
+
+The constructor for this object 
+\begin{DoxyParams}{Parameters}
+{\em predicate} & The predicate that needs to be satsified to keep looping \\
+\hline
+{\em loop\+Block} & The block to be executed in the while loop (while the predicate holds) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTWhileStatementNode_a448a46d9dbde688562ada266192735c8}\label{classparser_1_1ast_1_1ASTWhileStatementNode_a448a46d9dbde688562ada266192735c8}} 
+\index{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTWhileStatementNode_a17d4d7573477af83900a6dda33c29e78}\label{classparser_1_1ast_1_1ASTWhileStatementNode_a17d4d7573477af83900a6dda33c29e78}} 
+\index{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}!get\+Loop\+Block@{get\+Loop\+Block}}
+\index{get\+Loop\+Block@{get\+Loop\+Block}!parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Loop\+Block()}{getLoopBlock()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTBlockStatementNode}{parser\+::ast\+::\+A\+S\+T\+Block\+Statement\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node\+::get\+Loop\+Block (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the block to be executed in the while loop (while the predicate holds) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTWhileStatementNode_af0a556a314a4b06858d8f47c94e64b86}\label{classparser_1_1ast_1_1ASTWhileStatementNode_af0a556a314a4b06858d8f47c94e64b86}} 
+\index{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}!get\+Predicate@{get\+Predicate}}
+\index{get\+Predicate@{get\+Predicate}!parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Predicate()}{getPredicate()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node\+::get\+Predicate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the predicate that needs to be satsified to keep looping 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTWhileStatementNode_a47ad4212e8bae1bbe602918044e39cd8}\label{classparser_1_1ast_1_1ASTWhileStatementNode_a47ad4212e8bae1bbe602918044e39cd8}} 
+\index{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}!get\+Statement\+Type@{get\+Statement\+Type}}
+\index{get\+Statement\+Type@{get\+Statement\+Type}!parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Statement\+Type()}{getStatementType()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+Statement\+Type parser\+::ast\+::\+A\+S\+T\+While\+Statement\+Node\+::get\+Statement\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Virtual Method to return the statement type \begin{DoxyReturn}{Returns}
+The statement type (instead of checking what class it\textquotesingle{}s an instance of) 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTStatementNode_ac381d35d12f774a1bab0e209c5bfec1f}{parser\+::ast\+::\+A\+S\+T\+Statement\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/statement/\hyperlink{ASTWhileStatementNode_8h}{A\+S\+T\+While\+Statement\+Node.\+h}\item 
+parser/ast/statement/A\+S\+T\+While\+Statement\+Node.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,92 @@
+\hypertarget{classparser_1_1ast_1_1ASTReturnStatementNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Return\+Statement\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTReturnStatementNode}\index{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+Return\+Statement\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Return\+Statement\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{dd/d96/classparser_1_1ast_1_1ASTReturnStatementNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTReturnStatementNode_aa88792926907901c21090c2ad0203209}{A\+S\+T\+Return\+Statement\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTReturnStatementNode_af0ee45b3faee9a37d6a36f7670a586f1}{expr})
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTReturnStatementNode_a6e10c7499773278d36493d9a9545438a}{get\+Expr} ()
+\item 
+Statement\+Type \hyperlink{classparser_1_1ast_1_1ASTReturnStatementNode_a8e1fdae4c10f1e3349b244914e5117be}{get\+Statement\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTReturnStatementNode_ac66c375bc67277468711fdec08e93b15}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTReturnStatementNode_af0ee45b3faee9a37d6a36f7670a586f1}\label{classparser_1_1ast_1_1ASTReturnStatementNode_af0ee45b3faee9a37d6a36f7670a586f1}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTReturnStatementNode_af0ee45b3faee9a37d6a36f7670a586f1}{expr}
+\begin{DoxyCompactList}\small\item\em The expression whose result will be returned. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents a node in the A\+ST that represents a {\ttfamily return} statement. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTReturnStatementNode_aa88792926907901c21090c2ad0203209}\label{classparser_1_1ast_1_1ASTReturnStatementNode_aa88792926907901c21090c2ad0203209}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}!A\+S\+T\+Return\+Statement\+Node@{A\+S\+T\+Return\+Statement\+Node}}
+\index{A\+S\+T\+Return\+Statement\+Node@{A\+S\+T\+Return\+Statement\+Node}!parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Return\+Statement\+Node()}{ASTReturnStatementNode()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node\+::\+A\+S\+T\+Return\+Statement\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$}]{expr }\end{DoxyParamCaption})}
+
+The constructor for this class 
+\begin{DoxyParams}{Parameters}
+{\em expr} & The expression whose result will be returned \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTReturnStatementNode_ac66c375bc67277468711fdec08e93b15}\label{classparser_1_1ast_1_1ASTReturnStatementNode_ac66c375bc67277468711fdec08e93b15}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTReturnStatementNode_a6e10c7499773278d36493d9a9545438a}\label{classparser_1_1ast_1_1ASTReturnStatementNode_a6e10c7499773278d36493d9a9545438a}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}!get\+Expr@{get\+Expr}}
+\index{get\+Expr@{get\+Expr}!parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Expr()}{getExpr()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node\+::get\+Expr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The expression whose result will be returned 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTReturnStatementNode_a8e1fdae4c10f1e3349b244914e5117be}\label{classparser_1_1ast_1_1ASTReturnStatementNode_a8e1fdae4c10f1e3349b244914e5117be}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}!get\+Statement\+Type@{get\+Statement\+Type}}
+\index{get\+Statement\+Type@{get\+Statement\+Type}!parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Statement\+Type()}{getStatementType()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+Statement\+Type parser\+::ast\+::\+A\+S\+T\+Return\+Statement\+Node\+::get\+Statement\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Virtual Method to return the statement type \begin{DoxyReturn}{Returns}
+The statement type (instead of checking what class it\textquotesingle{}s an instance of) 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTStatementNode_ac381d35d12f774a1bab0e209c5bfec1f}{parser\+::ast\+::\+A\+S\+T\+Statement\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/statement/\hyperlink{ASTReturnStatementNode_8h}{A\+S\+T\+Return\+Statement\+Node.\+h}\item 
+parser/ast/statement/A\+S\+T\+Return\+Statement\+Node.\+cpp\end{DoxyCompactItemize}

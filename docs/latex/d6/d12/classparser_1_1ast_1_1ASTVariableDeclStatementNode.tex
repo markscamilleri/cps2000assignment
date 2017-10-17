@@ -1,0 +1,130 @@
+\hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode}{}\section{parser\+:\+:ast\+:\+:A\+S\+T\+Variable\+Decl\+Statement\+Node Class Reference}
+\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode}\index{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}}
+
+
+{\ttfamily \#include $<$A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h$>$}
+
+Inheritance diagram for parser\+:\+:ast\+:\+:A\+S\+T\+Variable\+Decl\+Statement\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{d6/d12/classparser_1_1ast_1_1ASTVariableDeclStatementNode}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_ab05aabaf5dd61a54a3b05101c9457260}{A\+S\+T\+Variable\+Decl\+Statement\+Node} (std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{A\+S\+T\+Identifier\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_ac835afc9e99d1e9e1af10db2ade9f901}{identifier}, \hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{Variable\+Type} \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a03d5695c58afabacdbfcf98950a65493}{type}, std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a5c648465737a76a89f91750b56741557}{expr})
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{A\+S\+T\+Identifier\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_add29f076ef275098eb63064e2441d4dd}{get\+Identifier} ()
+\item 
+\hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{Variable\+Type} \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a5f26584b63fff33a9bc55c595ab1d3ab}{get\+Type} () const
+\item 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \& \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_aaa330017ed4652ecb8d9900ac774b60f}{get\+Expr} ()
+\item 
+Statement\+Type \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a273b2c22a426022608813603ddfd820b}{get\+Statement\+Type} () override
+\item 
+void \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a4448c73408ed86719c6f3993a4eb8869}{accept} (\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$visitor) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_ac835afc9e99d1e9e1af10db2ade9f901}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_ac835afc9e99d1e9e1af10db2ade9f901}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{A\+S\+T\+Identifier\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_ac835afc9e99d1e9e1af10db2ade9f901}{identifier}
+\begin{DoxyCompactList}\small\item\em The variable identifier. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a03d5695c58afabacdbfcf98950a65493}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a03d5695c58afabacdbfcf98950a65493}} 
+\hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{Variable\+Type} \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a03d5695c58afabacdbfcf98950a65493}{type}
+\begin{DoxyCompactList}\small\item\em The variable type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a5c648465737a76a89f91750b56741557}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a5c648465737a76a89f91750b56741557}} 
+std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$ \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a5c648465737a76a89f91750b56741557}{expr}
+\begin{DoxyCompactList}\small\item\em The expression making up this variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classparser_1_1ast_1_1ASTVariableDeclStatementNode}{A\+S\+T\+Variable\+Decl\+Statement\+Node} represents an A\+ST node for a Variable Decleration Sentential form in the Mini\+Lang Language 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_ab05aabaf5dd61a54a3b05101c9457260}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_ab05aabaf5dd61a54a3b05101c9457260}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}!A\+S\+T\+Variable\+Decl\+Statement\+Node@{A\+S\+T\+Variable\+Decl\+Statement\+Node}}
+\index{A\+S\+T\+Variable\+Decl\+Statement\+Node@{A\+S\+T\+Variable\+Decl\+Statement\+Node}!parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}}
+\subsubsection{\texorpdfstring{A\+S\+T\+Variable\+Decl\+Statement\+Node()}{ASTVariableDeclStatementNode()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{A\+S\+T\+Identifier\+Node} $>$}]{identifier,  }\item[{\hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{Variable\+Type}}]{type,  }\item[{std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{A\+S\+T\+Expr\+Node} $>$}]{expr }\end{DoxyParamCaption})}
+
+Consturctor when the expression node is already created. 
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the variable identifier \\
+\hline
+{\em type} & the variable type, can be one of
+\begin{DoxyItemize}
+\item {\ttfamily Variable\+Type\+::\+V\+A\+R\+\_\+\+I\+NT}
+\item {\ttfamily Variable\+Type\+::\+V\+A\+R\+\_\+\+R\+E\+AL}
+\item {\ttfamily Variable\+Type\+::\+V\+A\+R\+\_\+\+B\+O\+OL}
+\item {\ttfamily Variable\+Type\+::\+V\+A\+R\+\_\+\+S\+T\+R\+I\+NG} 
+\end{DoxyItemize}\\
+\hline
+{\em exp} & The Expression node that will make up this variable. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a4448c73408ed86719c6f3993a4eb8869}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a4448c73408ed86719c6f3993a4eb8869}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}!accept@{accept}}
+\index{accept@{accept}!parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}}
+\subsubsection{\texorpdfstring{accept()}{accept()}}
+{\footnotesize\ttfamily void parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node\+::accept (\begin{DoxyParamCaption}\item[{\hyperlink{classvisitor_1_1Visitor}{visitor\+::\+Visitor} $\ast$}]{visitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Accepts a visitor and calls the operation by invoking {\ttfamily visit(this)} 
+\begin{DoxyParams}{Parameters}
+{\em visitor} & the visitor to accept \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTNode_a3ff84fdfdbbc5c39b70b4d04c22e7dc3}{parser\+::ast\+::\+A\+S\+T\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_aaa330017ed4652ecb8d9900ac774b60f}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_aaa330017ed4652ecb8d9900ac774b60f}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}!get\+Expr@{get\+Expr}}
+\index{get\+Expr@{get\+Expr}!parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Expr()}{getExpr()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node\+::get\+Expr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The expression node to create this variable 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_add29f076ef275098eb63064e2441d4dd}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_add29f076ef275098eb63064e2441d4dd}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}!get\+Identifier@{get\+Identifier}}
+\index{get\+Identifier@{get\+Identifier}!parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Identifier()}{getIdentifier()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \hyperlink{classparser_1_1ast_1_1ASTIdentifierNode}{parser\+::ast\+::\+A\+S\+T\+Identifier\+Node} $>$ \& parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node\+::get\+Identifier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The variable identifier 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a273b2c22a426022608813603ddfd820b}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a273b2c22a426022608813603ddfd820b}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}!get\+Statement\+Type@{get\+Statement\+Type}}
+\index{get\+Statement\+Type@{get\+Statement\+Type}!parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Statement\+Type()}{getStatementType()}}
+{\footnotesize\ttfamily parser\+::ast\+::\+Statement\+Type parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node\+::get\+Statement\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Virtual Method to return the statement type \begin{DoxyReturn}{Returns}
+The statement type (instead of checking what class it\textquotesingle{}s an instance of) 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classparser_1_1ast_1_1ASTStatementNode_ac381d35d12f774a1bab0e209c5bfec1f}{parser\+::ast\+::\+A\+S\+T\+Statement\+Node}.
+
+\mbox{\Hypertarget{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a5f26584b63fff33a9bc55c595ab1d3ab}\label{classparser_1_1ast_1_1ASTVariableDeclStatementNode_a5f26584b63fff33a9bc55c595ab1d3ab}} 
+\index{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node@{parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node}}
+\subsubsection{\texorpdfstring{get\+Type()}{getType()}}
+{\footnotesize\ttfamily \hyperlink{ASTVariableDeclStatementNode_8h_a1e8e1bde0729627e3a22ffa858d5f3b9}{parser\+::ast\+::\+Variable\+Type} parser\+::ast\+::\+A\+S\+T\+Variable\+Decl\+Statement\+Node\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The variable type 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/ast/statement/\hyperlink{ASTVariableDeclStatementNode_8h}{A\+S\+T\+Variable\+Decl\+Statement\+Node.\+h}\item 
+parser/ast/statement/A\+S\+T\+Variable\+Decl\+Statement\+Node.\+cpp\end{DoxyCompactItemize}

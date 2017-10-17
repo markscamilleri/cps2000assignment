@@ -1,0 +1,85 @@
+\hypertarget{classexceptions_1_1SyntaxError}{}\section{exceptions\+:\+:Syntax\+Error Class Reference}
+\label{classexceptions_1_1SyntaxError}\index{exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}}
+
+
+{\ttfamily \#include $<$Syntax\+Error.\+h$>$}
+
+Inheritance diagram for exceptions\+:\+:Syntax\+Error\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{d3/df7/classexceptions_1_1SyntaxError}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classexceptions_1_1SyntaxError_ad47c8f8926f591f2d7a2d7e8a7c044a1}{Syntax\+Error} (const std\+::string message, long line\+No, long char\+No)
+\item 
+long \hyperlink{classexceptions_1_1SyntaxError_a250a5032a546390f979c3ff624a88ead}{get\+Line\+No} () const
+\item 
+long \hyperlink{classexceptions_1_1SyntaxError_aac30c99ba9e1f9cf75505c7150a72230}{get\+Char\+No} () const
+\item 
+const std\+::string \hyperlink{classexceptions_1_1SyntaxError_a76804893bdba149c9dc7df4f26be31e0}{get\+Error} () const override
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+An exception that would be thrown if the lexer is unable to tokenize a lexeme This is also thrown if the parser can\textquotesingle{}t parse the token 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classexceptions_1_1SyntaxError_ad47c8f8926f591f2d7a2d7e8a7c044a1}\label{classexceptions_1_1SyntaxError_ad47c8f8926f591f2d7a2d7e8a7c044a1}} 
+\index{exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}!Syntax\+Error@{Syntax\+Error}}
+\index{Syntax\+Error@{Syntax\+Error}!exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{Syntax\+Error()}{SyntaxError()}}
+{\footnotesize\ttfamily exceptions\+::\+Syntax\+Error\+::\+Syntax\+Error (\begin{DoxyParamCaption}\item[{const std\+::string}]{message,  }\item[{long}]{line\+No,  }\item[{long}]{char\+No }\end{DoxyParamCaption})}
+
+Constructor for this exception 
+\begin{DoxyParams}{Parameters}
+{\em message} & The error message \\
+\hline
+{\em line\+No} & The line number where this syntax error occurred \\
+\hline
+{\em char\+No} & The character number where this syntax error occurred \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classexceptions_1_1SyntaxError_aac30c99ba9e1f9cf75505c7150a72230}\label{classexceptions_1_1SyntaxError_aac30c99ba9e1f9cf75505c7150a72230}} 
+\index{exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}!get\+Char\+No@{get\+Char\+No}}
+\index{get\+Char\+No@{get\+Char\+No}!exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{get\+Char\+No()}{getCharNo()}}
+{\footnotesize\ttfamily long exceptions\+::\+Syntax\+Error\+::get\+Char\+No (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The character number this error occurred 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classexceptions_1_1SyntaxError_a76804893bdba149c9dc7df4f26be31e0}\label{classexceptions_1_1SyntaxError_a76804893bdba149c9dc7df4f26be31e0}} 
+\index{exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}!get\+Error@{get\+Error}}
+\index{get\+Error@{get\+Error}!exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{get\+Error()}{getError()}}
+{\footnotesize\ttfamily const std\+::string exceptions\+::\+Syntax\+Error\+::get\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The full error message (message + position) 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classexceptions_1_1Exception}{exceptions\+::\+Exception}.
+
+\mbox{\Hypertarget{classexceptions_1_1SyntaxError_a250a5032a546390f979c3ff624a88ead}\label{classexceptions_1_1SyntaxError_a250a5032a546390f979c3ff624a88ead}} 
+\index{exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}!get\+Line\+No@{get\+Line\+No}}
+\index{get\+Line\+No@{get\+Line\+No}!exceptions\+::\+Syntax\+Error@{exceptions\+::\+Syntax\+Error}}
+\subsubsection{\texorpdfstring{get\+Line\+No()}{getLineNo()}}
+{\footnotesize\ttfamily long exceptions\+::\+Syntax\+Error\+::get\+Line\+No (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The line number this error occurred 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+exceptions/\hyperlink{SyntaxError_8h}{Syntax\+Error.\+h}\item 
+exceptions/Syntax\+Error.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,71 @@
+\hypertarget{ASTExprNode_8h}{}\section{parser/ast/\+A\+S\+T\+Expr\+Node.h File Reference}
+\label{ASTExprNode_8h}\index{parser/ast/\+A\+S\+T\+Expr\+Node.\+h@{parser/ast/\+A\+S\+T\+Expr\+Node.\+h}}
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include \char`\"{}A\+S\+T\+Node.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}expression/\+A\+S\+T\+Simple\+Expr\+Node.\+h\char`\"{}}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classparser_1_1ast_1_1ASTExprNode}{parser\+::ast\+::\+A\+S\+T\+Expr\+Node}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297a}{parser\+::ast\+::\+Rel\+Op\+Type} \{ \newline
+\hyperlink{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aac882da559ca838834523a65f96c3ba7f}{parser\+::ast\+::\+R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+ER}, 
+\hyperlink{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aada062d3cd0b06a82b67bf9a9dba10c65}{parser\+::ast\+::\+R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+E\+R\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS}, 
+\hyperlink{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aaae06cc6dc61ec0c42aa23e8d13a0759f}{parser\+::ast\+::\+R\+E\+L\+\_\+\+E\+Q\+U\+A\+LS}, 
+\hyperlink{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aa11450272997b012463a75eee1c76200f}{parser\+::ast\+::\+R\+E\+L\+\_\+\+N\+O\+T\+\_\+\+E\+Q\+U\+A\+LS}, 
+\newline
+\hyperlink{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aa0a907adaea5764c8faa4a8f9b0b72825}{parser\+::ast\+::\+R\+E\+L\+\_\+\+L\+E\+S\+S\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS}, 
+\hyperlink{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aac20237403a2ff54686fa3a5925451b64}{parser\+::ast\+::\+R\+E\+L\+\_\+\+L\+E\+SS}
+ \}\begin{DoxyCompactList}\small\item\em Enumerated type representing relational operators that can be used for an expression. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Mark Said Camilleri 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+20170430 
+\end{DoxyVersion}
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{ASTExprNode_8h_file_ade5793e91a548ec55c1a8e776984297a}\label{ASTExprNode_8h_file_ade5793e91a548ec55c1a8e776984297a}} 
+\index{A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}!Rel\+Op\+Type@{Rel\+Op\+Type}}
+\index{Rel\+Op\+Type@{Rel\+Op\+Type}!A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}}
+\subsubsection{\texorpdfstring{Rel\+Op\+Type}{RelOpType}}
+{\footnotesize\ttfamily enum \hyperlink{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297a}{parser\+::ast\+::\+Rel\+Op\+Type}}
+
+
+
+Enumerated type representing relational operators that can be used for an expression. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+ER@{R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+ER}!A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}}\index{A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}!R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+ER@{R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+ER}}}\mbox{\Hypertarget{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aac882da559ca838834523a65f96c3ba7f}\label{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aac882da559ca838834523a65f96c3ba7f}} 
+R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+ER&Greater than ({\ttfamily $>$}) operator. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+E\+R\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS@{R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+E\+R\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS}!A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}}\index{A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}!R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+E\+R\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS@{R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+E\+R\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS}}}\mbox{\Hypertarget{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aada062d3cd0b06a82b67bf9a9dba10c65}\label{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aada062d3cd0b06a82b67bf9a9dba10c65}} 
+R\+E\+L\+\_\+\+G\+R\+E\+A\+T\+E\+R\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS&Greater than or equals ({\ttfamily $>$=}) operator. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+L\+\_\+\+E\+Q\+U\+A\+LS@{R\+E\+L\+\_\+\+E\+Q\+U\+A\+LS}!A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}}\index{A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}!R\+E\+L\+\_\+\+E\+Q\+U\+A\+LS@{R\+E\+L\+\_\+\+E\+Q\+U\+A\+LS}}}\mbox{\Hypertarget{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aaae06cc6dc61ec0c42aa23e8d13a0759f}\label{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aaae06cc6dc61ec0c42aa23e8d13a0759f}} 
+R\+E\+L\+\_\+\+E\+Q\+U\+A\+LS&Equals ({\ttfamily ==}) operator. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+L\+\_\+\+N\+O\+T\+\_\+\+E\+Q\+U\+A\+LS@{R\+E\+L\+\_\+\+N\+O\+T\+\_\+\+E\+Q\+U\+A\+LS}!A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}}\index{A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}!R\+E\+L\+\_\+\+N\+O\+T\+\_\+\+E\+Q\+U\+A\+LS@{R\+E\+L\+\_\+\+N\+O\+T\+\_\+\+E\+Q\+U\+A\+LS}}}\mbox{\Hypertarget{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aa11450272997b012463a75eee1c76200f}\label{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aa11450272997b012463a75eee1c76200f}} 
+R\+E\+L\+\_\+\+N\+O\+T\+\_\+\+E\+Q\+U\+A\+LS&Not Equals ({\ttfamily !=}) operator. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+L\+\_\+\+L\+E\+S\+S\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS@{R\+E\+L\+\_\+\+L\+E\+S\+S\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS}!A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}}\index{A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}!R\+E\+L\+\_\+\+L\+E\+S\+S\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS@{R\+E\+L\+\_\+\+L\+E\+S\+S\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS}}}\mbox{\Hypertarget{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aa0a907adaea5764c8faa4a8f9b0b72825}\label{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aa0a907adaea5764c8faa4a8f9b0b72825}} 
+R\+E\+L\+\_\+\+L\+E\+S\+S\+\_\+\+O\+R\+\_\+\+E\+Q\+U\+A\+LS&Less than or equals ({\ttfamily $<$=}) operator. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+L\+\_\+\+L\+E\+SS@{R\+E\+L\+\_\+\+L\+E\+SS}!A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}}\index{A\+S\+T\+Expr\+Node.\+h@{A\+S\+T\+Expr\+Node.\+h}!R\+E\+L\+\_\+\+L\+E\+SS@{R\+E\+L\+\_\+\+L\+E\+SS}}}\mbox{\Hypertarget{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aac20237403a2ff54686fa3a5925451b64}\label{ASTExprNode_8h_ade5793e91a548ec55c1a8e776984297aac20237403a2ff54686fa3a5925451b64}} 
+R\+E\+L\+\_\+\+L\+E\+SS&Less than ({\ttfamily $<$} operator) \\
+\hline
+
+\end{DoxyEnumFields}

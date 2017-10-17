@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="enableCppFormatting" value="true" />
+    <option name="enableJavaFormatting" value="false" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1493190965577" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileCpp" value="$USER_HOME$/git_synced/styleguide/eclipse-cpp-google-style.xml" />
+    <option name="pathToConfigFileJava" value="$USER_HOME$/git_synced/styleguide/eclipse-java-google-style.xml" />
+    <option name="selectedCppProfile" value="Google C++" />
+    <option name="selectedJavaProfile" value="GoogleStyle" />
+    <option name="useForLiveTemplates" value="true" />
+  </component>
+</project>
